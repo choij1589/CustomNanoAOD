@@ -2,12 +2,12 @@
 ---
 
 ## Enviroment setting
-for RunII, use CMSSW\_10\_6\_27.
+for RunII, use CMSSW\_10\_6\_28.
 ```bash
 source /cvmfs/cms.cern.ch/cmsset_default.sh
 export SCRAM_ARCH=slc7_amd64_gcc700
-scram p -n SKNanoMaker_RunII_CMSSW_10_6_27 CMSSW CMSSW_10_6_27
-cd SKNanoMaker_CMSSW_10_6_27/src
+scram p -n SKNanoMaker_RunII_CMSSW_10_6_28 CMSSW CMSSW_10_6_28
+cd SKNanoMaker_CMSSW_10_6_28/src
 cmsenv
 ```
 
