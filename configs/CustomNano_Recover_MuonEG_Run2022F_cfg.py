@@ -2,12 +2,12 @@
 # using: 
 # Revision: 1.19 
 # Source: /local/reps/CMSSW/CMSSW/Configuration/Applications/python/ConfigBuilder.py,v 
-# with command line options: --eventcontent NANOAOD --customise_commands=process.add_(cms.Service('InitRootHandlers', EnableIMT = cms.untracked.bool(False)));process.MessageLogger.cerr.FwkReport.reportEvery=1000 --scenario pp --datatier NANOAOD --conditions 130X_dataRun3_PromptAnalysis_v1 --step NANO --era Run3_2023 --python_filename configs/CustomNano__cfg.py --filein file:7c68bae7-eae5-4403-870a-a75c5fb8451a.root --fileout file:NANOAOD.root --no_exec --data -n 100
+# with command line options: --eventcontent NANOAOD --customise_commands=process.add_(cms.Service('InitRootHandlers', EnableIMT = cms.untracked.bool(False)));process.MessageLogger.cerr.FwkReport.reportEvery=1000 --scenario pp --datatier NANOAOD --conditions 130X_dataRun3_PromptAnalysis_v1 --step NANO --era Run3 --python_filename configs/CustomNano_Recover_MuonEG_Run2022F_cfg.py --filein file:CRAB/20250512_DATA_2022EE/4372c542-7772-4594-b484-fb579e0fdd9d.root --fileout file:NANOAOD_566.root --no_exec --data -n -1
 import FWCore.ParameterSet.Config as cms
 
-from Configuration.Eras.Era_Run3_2023_cff import Run3_2023
+from Configuration.Eras.Era_Run3_cff import Run3
 
-process = cms.Process('NANO',Run3_2023)
+process = cms.Process('NANO',Run3)
 
 # import of standard configurations
 process.load('Configuration.StandardSequences.Services_cff')
@@ -21,13 +21,13 @@ process.load('Configuration.StandardSequences.EndOfProcess_cff')
 process.load('Configuration.StandardSequences.FrontierConditions_GlobalTag_cff')
 
 process.maxEvents = cms.untracked.PSet(
-    input = cms.untracked.int32(100),
+    input = cms.untracked.int32(-1),
     output = cms.optional.untracked.allowed(cms.int32,cms.PSet)
 )
 
 # Input source
 process.source = cms.Source("PoolSource",
-    fileNames = cms.untracked.vstring('file:7c68bae7-eae5-4403-870a-a75c5fb8451a.root'),
+    fileNames = cms.untracked.vstring('file:CRAB/20250512_DATA_2022EE/4372c542-7772-4594-b484-fb579e0fdd9d.root'),
     secondaryFileNames = cms.untracked.vstring()
 )
 
@@ -65,7 +65,7 @@ process.options = cms.untracked.PSet(
 
 # Production Info
 process.configurationMetadata = cms.untracked.PSet(
-    annotation = cms.untracked.string('--eventcontent nevts:100'),
+    annotation = cms.untracked.string('--eventcontent nevts:-1'),
     name = cms.untracked.string('Applications'),
     version = cms.untracked.string('$Revision: 1.19 $')
 )
@@ -79,7 +79,7 @@ process.NANOAODoutput = cms.OutputModule("NanoAODOutputModule",
         dataTier = cms.untracked.string('NANOAOD'),
         filterName = cms.untracked.string('')
     ),
-    fileName = cms.untracked.string('file:NANOAOD.root'),
+    fileName = cms.untracked.string('file:NANOAOD_566.root'),
     outputCommands = process.NANOAODEventContent.outputCommands
 )
 
