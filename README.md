@@ -11,12 +11,21 @@ cd SKNanoMaker_CMSSW_10_6_28/src
 cmsenv
 ```
 
-for Run3, use CMSSW\_13\_0\_13.
+for Run3 Nano v12, use CMSSW\_13\_0\_13.
 ```bash
 source /cvmfs/cms.cern.ch/cmsset_default.sh
 export SCRAM_ARCH=el8_amd64_gcc11
 scram p -n SKNanoMaker_Run3_CMSSW_13_0_13 CMSSW CMSSW_13_0_13
 cd SKNanoMaker_Run3_CMSSW_13_0_13/src
+cmsenv
+```
+
+If you are using EGamma mvaNoIso variables, Nano v12 has some issues with the variables. Use Nano v13 instead (not varified for other variables).
+```bash
+source /cvmfs/cms.cern.ch/cmsset_default.sh
+export SCRAM_ARCH=el8_amd64_gcc12
+scram p -n SKNanoMaker_Run3_CMSSW_13_3_1_patch1 CMSSW CMSSW_13_3_1_patch1
+cd SKNanoMaker_Run3_CMSSW_13_3_1_patch1/src
 cmsenv
 ```
 
@@ -26,7 +35,8 @@ For example, if you want to change the electron varible, check `PhysicsTools/Nan
 cd $CMSSW_BASE/src
 git cms-init
 git cms-merge-topic choij1589:from-CMSSW_10_6_27 # Run2
-git cms-merge-topic choij1589:from-CMSSW_13_0_13 # Run3
+#git cms-merge-topic choij1589:from-CMSSW_13_0_13 # Run3 Nano v12
+#git cms-merge-topic choij1589:from-CMSSW_13_3_1_patch1 # Run3 Nano v13
 
 # for post process. Not strictly needed.
 git clone https://github.com/cms-nanoAOD/nanoAOD-tools.git PhysicsTools/NanoAODTools

@@ -92,15 +92,15 @@ BASEDIR = os.getcwd()
 DATE = datetime.now().strftime("%Y%m%d")
 # Create a unique directory name based on input dataset or list
 if args.inputDataset:
-    dataset_identifier = args.inputDataset.split('/')[1][:20]  # Take first 20 chars of dataset name
-    WORKDIR = f"{BASEDIR}/CRAB/{DATE}_{dataset_identifier}"
+    prefix, lumiMask, request_name = getRequestInfoFrom(args.inputDataset)
+    WORKDIR = f"{BASEDIR}/CRAB/{DATE}_{prefix}"
 elif args.inputList:
     list_name = os.path.basename(args.inputList).replace('.txt', '')
     WORKDIR = f"{BASEDIR}/CRAB/{DATE}_{list_name}"
 else:
     WORKDIR = f"{BASEDIR}/CRAB/{DATE}"
 try:
-    os.makedirs(WORKDIR, exist_ok=False)
+    os.makedirs(WORKDIR, exist_ok=True)
 except FileExistsError:
     raise FileExistsError(f"Directory {WORKDIR} already exists. Please remove it before submission.")
 
