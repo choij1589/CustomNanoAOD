@@ -77,10 +77,27 @@ def getRequestInfoFrom(dataset):
         raise ValueError(f"Cannot parse era from dataset: {dataset}")
     
     if "MC" in prefix:
-        request_name = f"{prefix}_{dataset.split('/')[1]}"
+        info = dataset.split('/')
+        physics_process = info[1]
+        conditions_part = info[2]
+        
+        # Extract extension information if present (e.g., _ext1, _ext2)
+        ext_suffix = ""
+        if "_ext" in conditions_part:
+            ext_parts = conditions_part.split("_ext")
+            if len(ext_parts) > 1:
+                ext_number = ext_parts[1].split("-")[0]  # Extract number after _ext
+                ext_suffix = f"_ext{ext_number}"
+        
+        request_name = f"{prefix}_{physics_process}{ext_suffix}"
     else:
         info = dataset.split('/')
-        request_name = f"{prefix}_{info[1]}_{info[2].split('-')[0]}"
+        pd = info[1]
+        era = info[2].split('-')[0]
+        request_name = f"{prefix}_{pd}_{era}"
+        if "2023" in prefix:
+            version_suffix = info[2].split('_')[1].split('-')[0]
+            request_name += f"_{version_suffix}"
     print("Dataset:", dataset)
     print("prefix:", prefix)
     print("lumiMask:", lumiMask)
@@ -170,3 +187,4 @@ if args.inputList:
     
     print(f"Submission script created at {WORKDIR}/submit.sh")
     print(f"Run 'bash {WORKDIR}/submit.sh' to submit all jobs in parallel")
+
