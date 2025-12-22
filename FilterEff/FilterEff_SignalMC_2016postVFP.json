@@ -1,0 +1,218 @@
+[
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-100_MA-15_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/MINIAODSIM",
+    "mini_prepid": "HIG-RunIISummer20UL16MiniAODv2-01225",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-100_MA-24_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v3/MINIAODSIM",
+    "mini_prepid": "B2G-RunIISummer20UL16MiniAODv2-05675",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-100_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v3/MINIAODSIM",
+    "mini_prepid": "HIG-RunIISummer20UL16MiniAODv2-01226",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-100_MA-75_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v3/MINIAODSIM",
+    "mini_prepid": "B2G-RunIISummer20UL16MiniAODv2-05676",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-100_MA-95_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/MINIAODSIM",
+    "mini_prepid": "HIG-RunIISummer20UL16MiniAODv2-01227",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-115_MA-110_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v3/MINIAODSIM",
+    "mini_prepid": "B2G-RunIISummer20UL16MiniAODv2-05680",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-115_MA-15_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v3/MINIAODSIM",
+    "mini_prepid": "B2G-RunIISummer20UL16MiniAODv2-05681",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-115_MA-27_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v3/MINIAODSIM",
+    "mini_prepid": "B2G-RunIISummer20UL16MiniAODv2-05682",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-115_MA-87_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v3/MINIAODSIM",
+    "mini_prepid": "B2G-RunIISummer20UL16MiniAODv2-05679",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-130_MA-100_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v3/MINIAODSIM",
+    "mini_prepid": "B2G-RunIISummer20UL16MiniAODv2-05691",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-130_MA-125_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/MINIAODSIM",
+    "mini_prepid": "HIG-RunIISummer20UL16MiniAODv2-01231",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-130_MA-15_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/MINIAODSIM",
+    "mini_prepid": "HIG-RunIISummer20UL16MiniAODv2-01228",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-130_MA-30_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v3/MINIAODSIM",
+    "mini_prepid": "B2G-RunIISummer20UL16MiniAODv2-05683",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-130_MA-55_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/MINIAODSIM",
+    "mini_prepid": "HIG-RunIISummer20UL16MiniAODv2-01229",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-130_MA-83_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v3/MINIAODSIM",
+    "mini_prepid": "B2G-RunIISummer20UL16MiniAODv2-05684",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-130_MA-90_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/MINIAODSIM",
+    "mini_prepid": "HIG-RunIISummer20UL16MiniAODv2-01230",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-145_MA-140_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v4/MINIAODSIM",
+    "mini_prepid": "B2G-RunIISummer20UL16MiniAODv2-05687",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-145_MA-15_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v3/MINIAODSIM",
+    "mini_prepid": "B2G-RunIISummer20UL16MiniAODv2-05692",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-145_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v3/MINIAODSIM",
+    "mini_prepid": "B2G-RunIISummer20UL16MiniAODv2-05689",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-145_MA-92_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v3/MINIAODSIM",
+    "mini_prepid": "B2G-RunIISummer20UL16MiniAODv2-05690",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-160_MA-120_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/MINIAODSIM",
+    "mini_prepid": "HIG-RunIISummer20UL16MiniAODv2-01234",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-160_MA-155_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/MINIAODSIM",
+    "mini_prepid": "HIG-RunIISummer20UL16MiniAODv2-01235",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-160_MA-15_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/MINIAODSIM",
+    "mini_prepid": "HIG-RunIISummer20UL16MiniAODv2-01232",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-160_MA-50_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v4/MINIAODSIM",
+    "mini_prepid": "B2G-RunIISummer20UL16MiniAODv2-05688",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-160_MA-85_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/MINIAODSIM",
+    "mini_prepid": "HIG-RunIISummer20UL16MiniAODv2-01233",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-160_MA-98_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v3/MINIAODSIM",
+    "mini_prepid": "B2G-RunIISummer20UL16MiniAODv2-05685",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-160_MA135_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v3/MINIAODSIM",
+    "mini_prepid": "B2G-RunIISummer20UL16MiniAODv2-05686",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-70_MA-15_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/MINIAODSIM",
+    "mini_prepid": "HIG-RunIISummer20UL16MiniAODv2-01222",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-70_MA-18_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v3/MINIAODSIM",
+    "mini_prepid": "B2G-RunIISummer20UL16MiniAODv2-05696",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-70_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v1/MINIAODSIM",
+    "mini_prepid": "HIG-RunIISummer20UL16MiniAODv2-01223",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-70_MA-55_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v3/MINIAODSIM",
+    "mini_prepid": "B2G-RunIISummer20UL16MiniAODv2-05695",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-70_MA-65_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/MINIAODSIM",
+    "mini_prepid": "HIG-RunIISummer20UL16MiniAODv2-01224",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-85_MA-15_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v4/MINIAODSIM",
+    "mini_prepid": "B2G-RunIISummer20UL16MiniAODv2-05694",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-85_MA-21_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v3/MINIAODSIM",
+    "mini_prepid": "B2G-RunIISummer20UL16MiniAODv2-05693",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-85_MA-70_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v3/MINIAODSIM",
+    "mini_prepid": "B2G-RunIISummer20UL16MiniAODv2-05677",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  },
+  {
+    "dataset": "/TTToHcToWAToMuMu_MHc-85_MA-80_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v3/MINIAODSIM",
+    "mini_prepid": "B2G-RunIISummer20UL16MiniAODv2-05678",
+    "wm_prepid": null,
+    "error": "wmLHEGEN prepID not found from reqmgr_name"
+  }
+]

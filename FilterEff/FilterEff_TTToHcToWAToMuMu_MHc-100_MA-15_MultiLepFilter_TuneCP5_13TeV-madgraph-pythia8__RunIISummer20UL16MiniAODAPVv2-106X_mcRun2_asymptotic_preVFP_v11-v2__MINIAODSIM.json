@@ -1,0 +1,11 @@
+{
+  "prepid": "HIG-RunIISummer20UL16MiniAODAPVv2-05530",
+  "dataset_name": "TTToHcToWAToMuMu_MHc-100_MA-15_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8",
+  "filter_efficiency": null,
+  "filter_efficiency_error": null,
+  "generator_parameters": {},
+  "gen_filter_efficiency": null,
+  "gen_filter_efficiency_error": null,
+  "notes": [],
+  "completion_percentage": 100.0
+}

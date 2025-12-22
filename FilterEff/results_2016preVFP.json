@@ -1,0 +1,280 @@
+{
+  "TTToHcToWAToMuMu_MHc-145_MA-15": {
+    "filter_efficiency": 0.6344,
+    "filter_efficiency_error": 0.001167,
+    "cross_section": 0.8375,
+    "cross_section_error": 0.00155,
+    "total_files": 7,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-160_MA-155": {
+    "filter_efficiency": 0.5124,
+    "filter_efficiency_error": 0.0006283,
+    "cross_section": 2.173e-08,
+    "cross_section_error": 2.751e-11,
+    "total_files": 9,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-70_MA-65": {
+    "filter_efficiency":
+    "filter_efficiency_error": ,
+    "cross_section": ,
+    "cross_section_error": ,
+    "total_files": 23,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-100_MA-95": {
+    "filter_efficiency": 0.5646,
+    "filter_efficiency_error": 0.0006524,
+    "cross_section": 3.109e-07,
+    "cross_section_error": 3.723e-10,
+    "total_files": 8,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-100_MA-15": {
+    "filter_efficiency": 0.5941,
+    "filter_efficiency_error": 0.0006702,
+    "cross_section": 0.09175,
+    "cross_section_error": 0.0001074,
+    "total_files": 8,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-115_MA-15": {
+    "filter_efficiency": 0.6114,
+    "filter_efficiency_error": 0.00116,
+    "cross_section": 0.4973,
+    "cross_section_error": 0.0009483,
+    "total_files": 12,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-130_MA-90": {
+    "filter_efficiency": 0.6952,
+    "filter_efficiency_error": 0.0006754,
+    "cross_section": 0.00379,
+    "cross_section_error": 3.917e-06,
+    "total_files": 12,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-130_MA-125": {
+    "filter_efficiency": 0.5445,
+    "filter_efficiency_error": 0.0006504,
+    "cross_section": 1.7e-07,
+    "cross_section_error": 2.102e-10,
+    "total_files": 8,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-130_MA-83": {
+    "filter_efficiency": 0.6985,
+    "filter_efficiency_error": 0.0006761,
+    "cross_section": 0.007603,
+    "cross_section_error": 7.418e-06,
+    "total_files": 12,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-145_MA-140": {
+    "filter_efficiency": 0.5333,
+    "filter_efficiency_error": 0.001103,
+    "cross_section": 8.682e-08,
+    "cross_section_error": 1.802e-10,
+    "total_files": 5,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-130_MA-55": {
+    "filter_efficiency": 0.7038,
+    "filter_efficiency_error": 0.0006735,
+    "cross_section": 0.06208,
+    "cross_section_error": 6.322e-05,
+    "total_files": 7,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-130_MA-30": {
+    "filter_efficiency": 0.6774,
+    "filter_efficiency_error": 0.001163,
+    "cross_section": 1.118,
+    "cross_section_error": 0.001932,
+    "total_files": 14,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-100_MA-60": {
+    "filter_efficiency": 0.6979,
+    "filter_efficiency_error": 0.0006761,
+    "cross_section": 0.004994,
+    "cross_section_error": 5.127e-06,
+    "total_files": 12,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-130_MA-100": {
+    "filter_efficiency": 0.6866,
+    "filter_efficiency_error": 0.001166,
+    "cross_section": 0.001055,
+    "cross_section_error": 1.805e-06,
+    "total_files": 14,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-160_MA-120": {
+    "filter_efficiency": 0.6837,
+    "filter_efficiency_error": 0.0006784,
+    "cross_section": 0.0005993,
+    "cross_section_error": 6.309e-07,
+    "total_files": 8,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-160_MA-15": {
+    "filter_efficiency": 0.638,
+    "filter_efficiency_error": 0.002212,
+    "cross_section": 0.5349,
+    "cross_section_error": 0.0005699
+  },
+  "TTToHcToWAToMuMu_MHc-130_MA-15": {
+    "filter_efficiency": 0.626,
+    "filter_efficiency_error": 0.0006737,
+    "cross_section": 0.8751,
+    "cross_section_error": 0.0009783,
+    "total_files": 19,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-115_MA-110": {
+    "filter_efficiency": 0.5559,
+    "filter_efficiency_error": 0.001133,
+    "cross_section": 2.508e-07,
+    "cross_section_error": 5.132e-10,
+    "total_files": 19,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-160_MA135": {
+    "filter_efficiency": 0.6622,
+    "filter_efficiency_error": 0.001176,
+    "cross_section": 6.625e-05,
+    "cross_section_error": 1.185e-07,
+    "total_files": 7,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-160_MA-85": {
+    "filter_efficiency": 0.6992,
+    "filter_efficiency_error": 0.0006779,
+    "cross_section": 0.01355,
+    "cross_section_error": 1.394e-05,
+    "total_files": 7,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-160_MA-50": {
+    "filter_efficiency": 0.6936,
+    "filter_efficiency_error": 0.00117,
+    "cross_section": 0.5899,
+    "cross_section_error": 0.001002,
+    "total_files": 7,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-85_MA-70": {
+    "filter_efficiency": 0.6558,
+    "filter_efficiency_error": 0.001171,
+    "cross_section": 6.984e-05,
+    "cross_section_error": 1.256e-07,
+    "total_files": 5,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-85_MA-15": {
+    "filter_efficiency": 0.6215,
+    "filter_efficiency_error": 0.001157,
+    "cross_section": 0.01186,
+    "cross_section_error": 2.223e-05,
+    "total_files": 7,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-70_MA-40": {
+    "filter_efficiency": 0.6808,
+    "filter_efficiency_error": 0.0006772,
+    "cross_section": 0.00107,
+    "cross_section_error": 1.122e-06,
+    "total_files": 13,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-160_MA-98": {
+    "filter_efficiency": 0.696,
+    "filter_efficiency_error": 0.0006736,
+    "cross_section": 0.004646,
+    "cross_section_error": 4.533e-06,
+    "total_files": 14,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-145_MA-35": {
+    "filter_efficiency": 0.6858,
+    "filter_efficiency_error": 0.001178,
+    "cross_section": 1.345,
+    "cross_section_error": 0.002325,
+    "total_files": 6,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-85_MA-80": {
+    "filter_efficiency": 0.5746,
+    "filter_efficiency_error": 0.00113,
+    "cross_section": 3.422e-07,
+    "cross_section_error": 6.759e-10,
+    "total_files": 9,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-115_MA-87": {
+    "filter_efficiency": 0.6861,
+    "filter_efficiency_error": 0.0006822,
+    "cross_section": 0.001038,
+    "cross_section_error": 1.04e-06,
+    "total_files": 26,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-100_MA-75": {
+    "filter_efficiency": 0.6808,
+    "filter_efficiency_error": 0.001188,
+    "cross_section": 0.0007004,
+    "cross_section_error": 1.231e-06,
+    "total_files": 14,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-70_MA-15": {
+    "filter_efficiency": 0.6184,
+    "filter_efficiency_error": 0.000676,
+    "cross_section": 0.003692,
+    "cross_section_error": 4.21e-06,
+    "total_files": 23,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-70_MA-55": {
+    "filter_efficiency": 0.6577,
+    "filter_efficiency_error": 0.001175,
+    "cross_section": 6.275e-05,
+    "cross_section_error": 1.129e-07,
+    "total_files": 8,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-70_MA-18": {
+    "filter_efficiency": 0.634,
+    "filter_efficiency_error": 0.001173,
+    "cross_section": 0.003804,
+    "cross_section_error": 7.083e-06,
+    "total_files": 13,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-115_MA-27": {
+    "filter_efficiency": 0.6698,
+    "filter_efficiency_error": 0.001177,
+    "cross_section": 0.3868,
+    "cross_section_error": 0.0006841,
+    "total_files": 24,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-145_MA-92": {
+    "filter_efficiency": 0.6993,
+    "filter_efficiency_error": 0.0006759,
+    "cross_section": 0.007621,
+    "cross_section_error": 7.429e-06,
+    "total_files": 30,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-100_MA-24": {
+    "filter_efficiency": 0.6612,
+    "filter_efficiency_error": 0.001176,
+    "cross_section": 0.03798,
+    "cross_section_error": 6.803e-05,
+    "total_files": 21,
+    "total_events": null
+  }
+}
