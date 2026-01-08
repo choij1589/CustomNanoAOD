@@ -11,7 +11,7 @@ cd SKNanoMaker_CMSSW_10_6_28/src
 cmsenv
 ```
 
-for Run3 Nano v12, use CMSSW\_13\_0\_13.
+for Run3 Nano v13, use CMSSW\_13\_0\_13.
 ```bash
 source /cvmfs/cms.cern.ch/cmsset_default.sh
 export SCRAM_ARCH=el8_amd64_gcc11
