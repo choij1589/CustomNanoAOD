@@ -11,12 +11,12 @@ cd SKNanoMaker_CMSSW_10_6_28/src
 cmsenv
 ```
 
-for Run3 Nano v12, use CMSSW\_13\_0\_13.
+for Run3 Nano v13, use CMSSW\_13\_3\_1\_patch1.
 ```bash
 source /cvmfs/cms.cern.ch/cmsset_default.sh
 export SCRAM_ARCH=el8_amd64_gcc11
-scram p -n SKNanoMaker_Run3_CMSSW_13_0_13 CMSSW CMSSW_13_0_13
-cd SKNanoMaker_Run3_CMSSW_13_0_13/src
+scram p -n SKNanoMaker_Run3_CMSSW_13_3_1_patch1 CMSSW CMSSW_13_3_1_patch1
+cd SKNanoMaker_Run3_CMSSW_13_3_1_patch1/src
 cmsenv
 ```
 
@@ -67,7 +67,7 @@ cmsRun test_cfg.py
 ```
 
 ## Running cmsDriver.py
-To process MiniAOD to NanoAOD, trun `cmsDriver.py`.
+To process MiniAOD to NanoAOD, run `cmsDriver.py`.
 ```bash
 ./scripts/runCMSDriver.sh $PREFIX # MC_2017 / DATA_2016preVFP
 ```

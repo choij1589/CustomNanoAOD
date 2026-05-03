@@ -1,10 +1,19 @@
 {
+<<<<<<< HEAD
   "TTToHcToWAToMuMu_MHc-100_MA-95": {
     "filter_efficiency": 0.5652,
     "filter_efficiency_error": 0.0004929,
     "cross_section": 3.113e-07,
     "cross_section_error": 2.802e-10,
     "total_files": 27,
+=======
+  "TTToHcToWAToMuMu_MHc-85_MA-15": {
+    "filter_efficiency": 0.6198,
+    "filter_efficiency_error": 0.0008706,
+    "cross_section": 0.01181,
+    "cross_section_error": 1.67e-05,
+    "total_files": 34,
+>>>>>>> 8204df92e9072ea98495634bb4f33afc2988f350
     "total_events": null
   }
 }
