@@ -9,12 +9,12 @@ This is a CustomNanoAOD framework for CMS (Compact Muon Solenoid) data analysis,
 ## Environment Setup
 
 ### Run3 (Current Focus)
-For Run3 with Nano v13 (recommended for EGamma mvaNoIso variables):
+NanoAODv15 for 2022-2025 data and Summer24 MC (2026 data needs a separate CMSSW_16_0_X area, see docs/):
 ```bash
 source /cvmfs/cms.cern.ch/cmsset_default.sh
-export SCRAM_ARCH=el8_amd64_gcc12
-scram p -n SKNanoMaker_Run3_CMSSW_13_3_1_patch1 CMSSW CMSSW_13_3_1_patch1
-cd SKNanoMaker_Run3_CMSSW_13_3_1_patch1/src
+export SCRAM_ARCH=el9_amd64_gcc12
+scram p -n SKNanoMaker_Run3_CMSSW_15_0_22 CMSSW CMSSW_15_0_22
+cd SKNanoMaker_Run3_CMSSW_15_0_22/src
 cmsenv
 ```
 
@@ -22,7 +22,7 @@ cmsenv
 ```bash
 cd $CMSSW_BASE/src
 git cms-init
-git cms-merge-topic choij1589:from-CMSSW_13_3_1_patch1  # Run3 Nano v13
+git cms-merge-topic choij1589:from-CMSSW_15_0_22  # Run3 NanoAODv15
 git clone https://github.com/cms-nanoAOD/nanoAOD-tools.git PhysicsTools/NanoAODTools
 scram b clean; scram b -j 8
 ```
@@ -83,8 +83,8 @@ The framework uses a two-line configuration system in `scripts/` directory:
 - Line 2: Era string (e.g., `Run3`)
 
 Supported eras:
-- **MC**: MC_2016preVFP, MC_2016postVFP, MC_2017, MC_2018, MC_2022, MC_2022EE, MC_2023, MC_2023BPix
-- **Data**: DATA_2016preVFP, DATA_2016postVFP, DATA_2017, DATA_2018, DATA_2022, DATA_2022EE, DATA_2023, DATA_2023BPix
+- **MC**: MC_2016preVFP, MC_2016postVFP, MC_2017, MC_2018, MC_2022, MC_2022EE, MC_2023, MC_2023BPix, MC_2024
+- **Data**: DATA_2016preVFP, DATA_2016postVFP, DATA_2017, DATA_2018, DATA_2022, DATA_2022EE, DATA_2023, DATA_2023BPix, DATA_2024
 
 ## Dataset Management
 

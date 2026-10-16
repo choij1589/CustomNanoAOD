@@ -2,13 +2,12 @@
 # using: 
 # Revision: 1.19 
 # Source: /local/reps/CMSSW/CMSSW/Configuration/Applications/python/ConfigBuilder.py,v 
-# with command line options: --eventcontent NANOAODSIM --customise Configuration/DataProcessing/Utils.addMonitoring --datatier NANOAODSIM --conditions 106X_mc2017_realistic_v9 --step NANO --era Run2_2017,run2_nanoAOD_106Xv2 --python_filename test_cfg.py --filein file:00827E5C-253F-F942-9751-3F3277340A21.root --fileout file:NANOAOD.root --no_exec --mc -n 100
+# with command line options: --eventcontent NANOAODSIM --customise Configuration/DataProcessing/Utils.addMonitoring --datatier NANOAODSIM --conditions 150X_mcRun3_2024_realistic_v4 --step NANO --scenario pp --era Run3_2024 --python_filename test_cfg.py --filein file:918e7d22-fba2-42a8-be6a-1b71370a4919.root --fileout file:NANOAOD.root --no_exec --mc -n 100
 import FWCore.ParameterSet.Config as cms
 
-from Configuration.Eras.Era_Run2_2017_cff import Run2_2017
-from Configuration.Eras.Modifier_run2_nanoAOD_106Xv2_cff import run2_nanoAOD_106Xv2
+from Configuration.Eras.Era_Run3_2024_cff import Run3_2024
 
-process = cms.Process('NANO',Run2_2017,run2_nanoAOD_106Xv2)
+process = cms.Process('NANO',Run3_2024)
 
 # import of standard configurations
 process.load('Configuration.StandardSequences.Services_cff')
@@ -23,17 +22,46 @@ process.load('Configuration.StandardSequences.EndOfProcess_cff')
 process.load('Configuration.StandardSequences.FrontierConditions_GlobalTag_cff')
 
 process.maxEvents = cms.untracked.PSet(
-    input = cms.untracked.int32(100)
+    input = cms.untracked.int32(100),
+    output = cms.optional.untracked.allowed(cms.int32,cms.PSet)
 )
 
 # Input source
 process.source = cms.Source("PoolSource",
-    fileNames = cms.untracked.vstring('file:00827E5C-253F-F942-9751-3F3277340A21.root'),
+    fileNames = cms.untracked.vstring('file:918e7d22-fba2-42a8-be6a-1b71370a4919.root'),
     secondaryFileNames = cms.untracked.vstring()
 )
 
 process.options = cms.untracked.PSet(
-
+    IgnoreCompletely = cms.untracked.vstring(),
+    Rethrow = cms.untracked.vstring(),
+    TryToContinue = cms.untracked.vstring(),
+    accelerators = cms.untracked.vstring('*'),
+    allowUnscheduled = cms.obsolete.untracked.bool,
+    canDeleteEarly = cms.untracked.vstring(),
+    deleteNonConsumedUnscheduledModules = cms.untracked.bool(True),
+    dumpOptions = cms.untracked.bool(False),
+    emptyRunLumiMode = cms.obsolete.untracked.string,
+    eventSetup = cms.untracked.PSet(
+        forceNumberOfConcurrentIOVs = cms.untracked.PSet(
+            allowAnyLabel_=cms.required.untracked.uint32
+        ),
+        numberOfConcurrentIOVs = cms.untracked.uint32(0)
+    ),
+    fileMode = cms.untracked.string('FULLMERGE'),
+    forceEventSetupCacheClearOnNewRun = cms.untracked.bool(False),
+    holdsReferencesToDeleteEarly = cms.untracked.VPSet(),
+    makeTriggerResults = cms.obsolete.untracked.bool,
+    modulesToCallForTryToContinue = cms.untracked.vstring(),
+    modulesToIgnoreForDeleteEarly = cms.untracked.vstring(),
+    numberOfConcurrentLuminosityBlocks = cms.untracked.uint32(0),
+    numberOfConcurrentRuns = cms.untracked.uint32(1),
+    numberOfStreams = cms.untracked.uint32(0),
+    numberOfThreads = cms.untracked.uint32(1),
+    printDependencies = cms.untracked.bool(False),
+    sizeOfStackForThreadsInKB = cms.optional.untracked.uint32,
+    throwIfIllegalParameter = cms.untracked.bool(True),
+    wantSummary = cms.untracked.bool(False)
 )
 
 # Production Info
@@ -60,7 +88,7 @@ process.NANOAODSIMoutput = cms.OutputModule("NanoAODOutputModule",
 
 # Other statements
 from Configuration.AlCa.GlobalTag import GlobalTag
-process.GlobalTag = GlobalTag(process.GlobalTag, '106X_mc2017_realistic_v9', '')
+process.GlobalTag = GlobalTag(process.GlobalTag, '150X_mcRun3_2024_realistic_v4', '')
 
 # Path and EndPath definitions
 process.nanoAOD_step = cms.Path(process.nanoSequenceMC)
@@ -74,21 +102,24 @@ associatePatAlgosToolsTask(process)
 
 # customisation of the process.
 
-# Automatic addition of the customisation function from PhysicsTools.NanoAOD.nano_cff
-from PhysicsTools.NanoAOD.nano_cff import nanoAOD_customizeMC 
-
-#call to customisation function nanoAOD_customizeMC imported from PhysicsTools.NanoAOD.nano_cff
-process = nanoAOD_customizeMC(process)
-
 # Automatic addition of the customisation function from Configuration.DataProcessing.Utils
 from Configuration.DataProcessing.Utils import addMonitoring 
 
 #call to customisation function addMonitoring imported from Configuration.DataProcessing.Utils
 process = addMonitoring(process)
 
+# Automatic addition of the customisation function from PhysicsTools.NanoAOD.nano_cff
+from PhysicsTools.NanoAOD.nano_cff import nanoAOD_customizeCommon 
+
+#call to customisation function nanoAOD_customizeCommon imported from PhysicsTools.NanoAOD.nano_cff
+process = nanoAOD_customizeCommon(process)
+
 # End of customisation functions
 
+
 # Customisation from command line
+
+process.source.delayReadingEventProducts = cms.untracked.bool(False)
 
 # Add early deletion of temporary data products to reduce peak memory need
 from Configuration.StandardSequences.earlyDeleteSettings_cff import customiseEarlyDelete

@@ -47,6 +47,8 @@ def getRequestInfoFrom(dataset):
         prefix = "MC_2023"
     elif "Run3Summer23BPixMiniAODv4" in dataset:
         prefix = "MC_2023BPix"
+    elif "RunIII2024Summer24MiniAODv6" in dataset:
+        prefix = "MC_2024"
     elif "HIPM_UL2016_MiniAODv2" in dataset:
         prefix = "DATA_2016preVFP"
         lumiMask = "https://cms-service-dqmdc.web.cern.ch/CAF/certification/Collisions16/13TeV/Legacy_2016/Cert_271036-284044_13TeV_Legacy2016_Collisions16_JSON.txt"
@@ -73,6 +75,9 @@ def getRequestInfoFrom(dataset):
     elif "Run2023D" in dataset:
         prefix = "DATA_2023BPix"
         lumiMask = "https://cms-service-dqmdc.web.cern.ch/CAF/certification/Collisions23/Cert_Collisions2023_366442_370790_Golden.json"
+    elif re.search(r"Run2024.*MINIv6NANOv15", dataset):
+        prefix = "DATA_2024"
+        lumiMask = "https://cms-service-dqmdc.web.cern.ch/CAF/certification/Collisions24/Cert_Collisions2024_378981_386951_Golden.json"
     else:
         raise ValueError(f"Cannot parse era from dataset: {dataset}")
     
@@ -98,6 +103,11 @@ def getRequestInfoFrom(dataset):
         if "2023" in prefix:
             version_suffix = info[2].split('_')[1].split('-')[0]
             request_name += f"_{version_suffix}"
+        elif "2024" in prefix:
+            # Run2024I has two processings with different runs: MINIv6NANOv15 and MINIv6NANOv15_v2
+            processing = info[2].split('-')[1]
+            if "_" in processing:
+                request_name += f"_{processing.split('_')[1]}"
     print("Dataset:", dataset)
     print("prefix:", prefix)
     print("lumiMask:", lumiMask)
