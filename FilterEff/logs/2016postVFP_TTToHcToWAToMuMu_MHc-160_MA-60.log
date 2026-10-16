@@ -1,0 +1,483 @@
+
+================================================================================
+Filter Efficiency Calculator
+Mode: Single dataset test
+Dataset: /TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/MINIAODSIM
+Dry run: False
+================================================================================
+
+================================================================================
+Processing: TTToHcToWAToMuMu_MHc-160_MA-60
+Dataset: /TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/MINIAODSIM
+================================================================================
+  Querying DAS for files...
+  Found 25 files
+  Running cmsRun with 25 files...
+
+  FULL STDOUT OUTPUT:
+================================================================================
+      0.122316      0.001635      0.605751             1
+      0.118477      0.001716      0.605751             0
+      0.120965      0.001554      0.605751             3
+      0.060757      0.001127      0.605751             2
+      0.060492      0.001144      0.605751             5
+      0.122744      0.001557      0.605751             4
+ 
+
+================================================================================
+
+  FULL STDERR OUTPUT:
+================================================================================
+07-May-2026 20:41:50 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/7166DDD3-2DEF-FF43-B2F4-5E51A7AC4F71.root
+[2026-05-07 20:41:56.462726 +0900][Error  ][AsyncSock         ] [t2dsk0017.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:41:56.462786 +0900][Error  ][PostMaster        ] [t2dsk0017.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:41:56.462792 +0900][Error  ][PostMaster        ] [t2dsk0017.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:41:56.462799 +0900][Error  ][XRootD            ] [t2dsk0017.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/7166DDD3-2DEF-FF43-B2F4-5E51A7AC4F71.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:42:06 KST pre-events
+Data is served from T2_IT_Pisa instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:42:12 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/7166DDD3-2DEF-FF43-B2F4-5E51A7AC4F71.root
+[2026-05-07 20:42:14.021281 +0900][Error  ][AsyncSock         ] [t2dsk0020.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:42:14.021330 +0900][Error  ][PostMaster        ] [t2dsk0020.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:42:14.021336 +0900][Error  ][PostMaster        ] [t2dsk0020.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:42:14.021340 +0900][Error  ][XRootD            ] [t2dsk0020.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/7166DDD3-2DEF-FF43-B2F4-5E51A7AC4F71.root?tried=stormgf3.pi.infn.it, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+Begin processing the 1st record. Run 1, Event 36040, LumiSection 26 on stream 0 at 07-May-2026 20:44:08.202 KST
+07-May-2026 20:44:11 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/7166DDD3-2DEF-FF43-B2F4-5E51A7AC4F71.root
+07-May-2026 20:44:11 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/36384E9A-D2AA-7B4C-88E4-E3A2D2DBEB99.root
+[2026-05-07 20:44:14.532255 +0900][Error  ][AsyncSock         ] [t2dsk0014.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:44:14.532305 +0900][Error  ][PostMaster        ] [t2dsk0014.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:44:14.532309 +0900][Error  ][PostMaster        ] [t2dsk0014.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:44:14.532313 +0900][Error  ][XRootD            ] [t2dsk0014.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/36384E9A-D2AA-7B4C-88E4-E3A2D2DBEB99.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:44:20 KST PostProcessEvent
+Data is served from T2_IT_Pisa instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:44:21 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/36384E9A-D2AA-7B4C-88E4-E3A2D2DBEB99.root
+[2026-05-07 20:44:31.553965 +0900][Error  ][AsyncSock         ] [t2dsk0027.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:44:31.554008 +0900][Error  ][PostMaster        ] [t2dsk0027.cmsaf.mit.edu:1094 #0] elapsed = 2, pConnectionWindow = 31 seconds.
+[2026-05-07 20:44:31.554026 +0900][Error  ][PostMaster        ] [t2dsk0027.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:44:31.554031 +0900][Error  ][XRootD            ] [t2dsk0027.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/36384E9A-D2AA-7B4C-88E4-E3A2D2DBEB99.root?tried=stormgf3.pi.infn.it, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+07-May-2026 20:44:54 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/36384E9A-D2AA-7B4C-88E4-E3A2D2DBEB99.root
+07-May-2026 20:44:54 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/77131BF1-E1FC-6749-BE18-1C39FD384DE0.root
+[2026-05-07 20:45:02.606954 +0900][Error  ][AsyncSock         ] [xrootd2.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:45:02.606994 +0900][Error  ][PostMaster        ] [xrootd2.cmsaf.mit.edu:1094 #0] elapsed = 6, pConnectionWindow = 31 seconds.
+[2026-05-07 20:45:02.607003 +0900][Error  ][PostMaster        ] [xrootd2.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:45:02.607006 +0900][Error  ][XRootD            ] [xrootd2.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/77131BF1-E1FC-6749-BE18-1C39FD384DE0.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:45:06 KST PostProcessEvent
+Data is served from T2_IT_Pisa instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:45:08 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/77131BF1-E1FC-6749-BE18-1C39FD384DE0.root
+[2026-05-07 20:45:14.763629 +0900][Error  ][AsyncSock         ] [t2dsk0017.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:45:14.763671 +0900][Error  ][PostMaster        ] [t2dsk0017.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:45:14.763677 +0900][Error  ][PostMaster        ] [t2dsk0017.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:45:14.763681 +0900][Error  ][XRootD            ] [t2dsk0017.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/77131BF1-E1FC-6749-BE18-1C39FD384DE0.root?tried=stormgf3.pi.infn.it, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+[2026-05-07 20:45:25.175609 +0900][Error  ][AsyncSock         ] [t2dsk0016.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:45:25.175655 +0900][Error  ][PostMaster        ] [t2dsk0016.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:45:25.175661 +0900][Error  ][PostMaster        ] [t2dsk0016.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:45:25.175666 +0900][Error  ][XRootD            ] [t2dsk0016.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/77131BF1-E1FC-6749-BE18-1C39FD384DE0.root?tried=stormgf3.pi.infn.it,stormgf2.pi.infn.it, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+Begin processing the 100001st record. Run 1, Event 206386, LumiSection 144 on stream 0 at 07-May-2026 20:45:30.914 KST
+07-May-2026 20:45:31 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/77131BF1-E1FC-6749-BE18-1C39FD384DE0.root
+07-May-2026 20:45:31 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/09EF47FD-9555-A34D-B883-7DD52D6696C9.root
+[2026-05-07 20:45:33.741350 +0900][Error  ][AsyncSock         ] [t2dsk0025.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:45:33.741415 +0900][Error  ][PostMaster        ] [t2dsk0025.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:45:33.741421 +0900][Error  ][PostMaster        ] [t2dsk0025.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:45:33.741427 +0900][Error  ][XRootD            ] [t2dsk0025.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/09EF47FD-9555-A34D-B883-7DD52D6696C9.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:45:41 KST PostProcessEvent
+Data is served from physik.rwth-aachen.de instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:45:42 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/09EF47FD-9555-A34D-B883-7DD52D6696C9.root
+[2026-05-07 20:45:56.978595 +0900][Error  ][AsyncSock         ] [xrootd5.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:45:56.978643 +0900][Error  ][PostMaster        ] [xrootd5.cmsaf.mit.edu:1094 #0] elapsed = 0, pConnectionWindow = 31 seconds.
+[2026-05-07 20:45:56.978647 +0900][Error  ][PostMaster        ] [xrootd5.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:45:56.978651 +0900][Error  ][XRootD            ] [xrootd5.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/09EF47FD-9555-A34D-B883-7DD52D6696C9.root?tried=grid-dcache.physik.rwth-aachen.de, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptor:  (NoModuleName) 07-May-2026 20:45:59 KST pre-events
+Data is now served from physik.rwth-aachen.de, T2_IT_Pisa instead of previous physik.rwth-aachen.de
+%MSG
+%MSG-w XrdAdaptor:  AfterFile 07-May-2026 20:46:01 KST PostProcessEvent
+Data is now served from physik.rwth-aachen.de instead of previous physik.rwth-aachen.de, T2_IT_Pisa
+%MSG
+[2026-05-07 20:46:03.354302 +0900][Error  ][AsyncSock         ] [t2dsk0019.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:46:03.354347 +0900][Error  ][PostMaster        ] [t2dsk0019.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:46:03.354352 +0900][Error  ][PostMaster        ] [t2dsk0019.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:46:03.354355 +0900][Error  ][XRootD            ] [t2dsk0019.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/09EF47FD-9555-A34D-B883-7DD52D6696C9.root?tried=grid-dcache.physik.rwth-aachen.de,stormgf2.pi.infn.it, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptor:  (NoModuleName) 07-May-2026 20:46:06 KST pre-events
+Data is now served from physik.rwth-aachen.de, T2_IT_Pisa instead of previous physik.rwth-aachen.de
+%MSG
+07-May-2026 20:46:18 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/09EF47FD-9555-A34D-B883-7DD52D6696C9.root
+07-May-2026 20:46:18 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/38A6E618-EF8B-6D46-8E3E-CDCFCE22EFDF.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:46:24 KST PostProcessEvent
+Data is served from physik.rwth-aachen.de instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:46:26 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/38A6E618-EF8B-6D46-8E3E-CDCFCE22EFDF.root
+[2026-05-07 20:46:32.059034 +0900][Error  ][AsyncSock         ] [t2dsk0024.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:46:32.059071 +0900][Error  ][PostMaster        ] [t2dsk0024.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:46:32.059076 +0900][Error  ][PostMaster        ] [t2dsk0024.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:46:32.059080 +0900][Error  ][XRootD            ] [t2dsk0024.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/38A6E618-EF8B-6D46-8E3E-CDCFCE22EFDF.root?tried=grid-dcache.physik.rwth-aachen.de, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptor:  (NoModuleName) 07-May-2026 20:46:35 KST pre-events
+Data is now served from physik.rwth-aachen.de, T2_IT_Pisa instead of previous physik.rwth-aachen.de
+%MSG
+%MSG-w XrdAdaptor:  AfterFile 07-May-2026 20:46:35 KST PostProcessEvent
+Data is now served from physik.rwth-aachen.de instead of previous physik.rwth-aachen.de, T2_IT_Pisa
+%MSG
+%MSG-w XrdAdaptor:  (NoModuleName) 07-May-2026 20:46:39 KST pre-events
+Data is now served from physik.rwth-aachen.de, T2_IT_Pisa instead of previous physik.rwth-aachen.de
+%MSG
+07-May-2026 20:46:50 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/38A6E618-EF8B-6D46-8E3E-CDCFCE22EFDF.root
+07-May-2026 20:46:50 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/12BE191F-6E8D-7D46-810A-A9AAFF883FBA.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:46:55 KST PostProcessEvent
+Data is served from T2_US_Purdue_EOS instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:46:56 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/12BE191F-6E8D-7D46-810A-A9AAFF883FBA.root
+[2026-05-07 20:47:03.995098 +0900][Error  ][AsyncSock         ] [xrootd8.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:47:03.995150 +0900][Error  ][PostMaster        ] [xrootd8.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:47:03.995154 +0900][Error  ][PostMaster        ] [xrootd8.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:47:03.995158 +0900][Error  ][XRootD            ] [xrootd8.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/12BE191F-6E8D-7D46-810A-A9AAFF883FBA.root?tried=k003.cms.rcac.purdue.edu, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+07-May-2026 20:47:15 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/12BE191F-6E8D-7D46-810A-A9AAFF883FBA.root
+07-May-2026 20:47:15 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/424335DA-CA9E-D645-9476-9B512B211F5A.root
+[2026-05-07 20:47:18.374118 +0900][Error  ][AsyncSock         ] [t2dsk0023.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:47:18.374169 +0900][Error  ][PostMaster        ] [t2dsk0023.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:47:18.374174 +0900][Error  ][PostMaster        ] [t2dsk0023.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:47:18.374178 +0900][Error  ][XRootD            ] [t2dsk0023.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/424335DA-CA9E-D645-9476-9B512B211F5A.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:47:27 KST PostProcessEvent
+Data is served from gridka.de instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:47:29 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/424335DA-CA9E-D645-9476-9B512B211F5A.root
+%MSG-w XrdAdaptor:  (NoModuleName) 07-May-2026 20:47:39 KST pre-events
+Data is now served from gridka.de, T2_IT_Pisa instead of previous gridka.de
+%MSG
+%MSG-w XrdAdaptor:  AfterFile 07-May-2026 20:47:41 KST PostProcessEvent
+Data is now served from gridka.de instead of previous gridka.de, T2_IT_Pisa
+%MSG
+%MSG-w XrdAdaptor:  (NoModuleName) 07-May-2026 20:47:44 KST pre-events
+Data is now served from gridka.de, T2_IT_Pisa instead of previous gridka.de
+%MSG
+07-May-2026 20:48:07 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/424335DA-CA9E-D645-9476-9B512B211F5A.root
+07-May-2026 20:48:07 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/195377BE-272E-D14E-8B27-5020DE8F37E2.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:48:12 KST PostProcessEvent
+Data is served from fnal.gov instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:48:13 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/195377BE-272E-D14E-8B27-5020DE8F37E2.root
+[2026-05-07 20:48:20.608522 +0900][Error  ][AsyncSock         ] [t2dsk0021.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:48:20.608568 +0900][Error  ][PostMaster        ] [t2dsk0021.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:48:20.608572 +0900][Error  ][PostMaster        ] [t2dsk0021.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:48:20.608576 +0900][Error  ][XRootD            ] [t2dsk0021.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/195377BE-272E-D14E-8B27-5020DE8F37E2.root?tried=cmssrv608.fnal.gov, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+Unable to load sec.protocol plugin libXrdSecztn.so
+[2026-05-07 20:48:32.376446 +0900][Error  ][AsyncSock         ] [t2dsk0022.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:48:32.376486 +0900][Error  ][PostMaster        ] [t2dsk0022.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:48:32.376490 +0900][Error  ][PostMaster        ] [t2dsk0022.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:48:32.376494 +0900][Error  ][XRootD            ] [t2dsk0022.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/195377BE-272E-D14E-8B27-5020DE8F37E2.root?tried=cmssrv608.fnal.gov, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+07-May-2026 20:48:34 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/195377BE-272E-D14E-8B27-5020DE8F37E2.root
+07-May-2026 20:48:34 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/D7A9E4C2-12FB-E844-9CAA-81D47DDB3525.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:48:36 KST PostProcessEvent
+Data is served from fnal.gov instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:48:37 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/D7A9E4C2-12FB-E844-9CAA-81D47DDB3525.root
+07-May-2026 20:48:46 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/D7A9E4C2-12FB-E844-9CAA-81D47DDB3525.root
+07-May-2026 20:48:46 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/9E34C19E-733A-A649-8039-1F1C3600B6C8.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:48:52 KST PostProcessEvent
+Data is served from T2_IT_Pisa instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:48:53 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/9E34C19E-733A-A649-8039-1F1C3600B6C8.root
+[2026-05-07 20:48:58.212688 +0900][Error  ][AsyncSock         ] [t2dsk0025.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:48:58.212731 +0900][Error  ][PostMaster        ] [t2dsk0025.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:48:58.212736 +0900][Error  ][PostMaster        ] [t2dsk0025.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:48:58.212740 +0900][Error  ][XRootD            ] [t2dsk0025.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/9E34C19E-733A-A649-8039-1F1C3600B6C8.root?tried=stormgf3.pi.infn.it, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptor:  (NoModuleName) 07-May-2026 20:49:05 KST pre-events
+Data is now served from T2_IT_Pisa, lnl.infn.it instead of previous T2_IT_Pisa
+%MSG
+07-May-2026 20:49:05 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/9E34C19E-733A-A649-8039-1F1C3600B6C8.root
+07-May-2026 20:49:05 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/6800B2FB-363E-0A41-A753-06E6BE9F743B.root
+[2026-05-07 20:49:08.348071 +0900][Error  ][AsyncSock         ] [t2dsk0020.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:49:08.348118 +0900][Error  ][PostMaster        ] [t2dsk0020.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:49:08.348124 +0900][Error  ][PostMaster        ] [t2dsk0020.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:49:08.348129 +0900][Error  ][XRootD            ] [t2dsk0020.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/6800B2FB-363E-0A41-A753-06E6BE9F743B.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:49:17 KST PostProcessEvent
+Data is served from iihe.ac.be instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:49:19 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/6800B2FB-363E-0A41-A753-06E6BE9F743B.root
+%MSG-w XrdAdaptor:  (NoModuleName) 07-May-2026 20:49:26 KST pre-events
+Data is now served from iihe.ac.be, T2_IT_Pisa instead of previous iihe.ac.be
+%MSG
+%MSG-w XrdAdaptor:  source 07-May-2026 20:49:26 KST PostStreamBeginLumi
+Data is now served from iihe.ac.be instead of previous iihe.ac.be, T2_IT_Pisa
+%MSG
+07-May-2026 20:49:29 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/6800B2FB-363E-0A41-A753-06E6BE9F743B.root
+07-May-2026 20:49:29 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/7E2B9E27-CDAA-D24F-9E7E-91676510F47D.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:49:40 KST PostProcessEvent
+Data is served from datagrid.cea.fr instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:49:41 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/7E2B9E27-CDAA-D24F-9E7E-91676510F47D.root
+[2026-05-07 20:49:45.997517 +0900][Error  ][AsyncSock         ] [t2dsk0015.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:49:45.997557 +0900][Error  ][PostMaster        ] [t2dsk0015.cmsaf.mit.edu:1094 #0] elapsed = 0, pConnectionWindow = 31 seconds.
+[2026-05-07 20:49:45.997562 +0900][Error  ][PostMaster        ] [t2dsk0015.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:49:45.997566 +0900][Error  ][XRootD            ] [t2dsk0015.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/7E2B9E27-CDAA-D24F-9E7E-91676510F47D.root?tried=stor19.datagrid.cea.fr, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+07-May-2026 20:49:53 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/7E2B9E27-CDAA-D24F-9E7E-91676510F47D.root
+07-May-2026 20:49:53 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/E222BD00-D961-FA40-88F5-1F6662E9368A.root
+[2026-05-07 20:49:56.694515 +0900][Error  ][AsyncSock         ] [xrootd5.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:49:56.694554 +0900][Error  ][PostMaster        ] [xrootd5.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:49:56.694558 +0900][Error  ][PostMaster        ] [xrootd5.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:49:56.694562 +0900][Error  ][XRootD            ] [xrootd5.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/E222BD00-D961-FA40-88F5-1F6662E9368A.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:50:00 KST PostProcessEvent
+Data is served from T2_IT_Pisa instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:50:02 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/E222BD00-D961-FA40-88F5-1F6662E9368A.root
+[2026-05-07 20:50:06.749103 +0900][Error  ][AsyncSock         ] [xrootd4.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:50:06.749139 +0900][Error  ][PostMaster        ] [xrootd4.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:50:06.749143 +0900][Error  ][PostMaster        ] [xrootd4.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:50:06.749147 +0900][Error  ][XRootD            ] [xrootd4.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/E222BD00-D961-FA40-88F5-1F6662E9368A.root?tried=stormgf1.pi.infn.it, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptor:  (NoModuleName) 07-May-2026 20:50:13 KST pre-events
+Data is now served from T2_IT_Pisa, T2_PT_NCG_Lisbon instead of previous T2_IT_Pisa
+%MSG
+%MSG-w XrdAdaptor:  AfterFile 07-May-2026 20:50:16 KST PostProcessEvent
+Data is now served from T2_PT_NCG_Lisbon instead of previous T2_IT_Pisa, T2_PT_NCG_Lisbon
+%MSG
+[2026-05-07 20:50:18.252891 +0900][Error  ][AsyncSock         ] [t2dsk0014.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:50:18.252926 +0900][Error  ][PostMaster        ] [t2dsk0014.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:50:18.252930 +0900][Error  ][PostMaster        ] [t2dsk0014.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:50:18.252935 +0900][Error  ][XRootD            ] [t2dsk0014.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/E222BD00-D961-FA40-88F5-1F6662E9368A.root?tried=stormgf1.pi.infn.it,xroot-data08.ncg.ingrid.pt, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptor:  (NoModuleName) 07-May-2026 20:50:22 KST pre-events
+Data is now served from T2_PT_NCG_Lisbon, T2_IT_Pisa instead of previous T2_PT_NCG_Lisbon
+%MSG
+%MSG-w XrdAdaptor:  source 07-May-2026 20:50:26 KST PostStreamBeginLumi
+Data is now served from T2_PT_NCG_Lisbon instead of previous T2_PT_NCG_Lisbon, T2_IT_Pisa
+%MSG
+07-May-2026 20:50:29 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/E222BD00-D961-FA40-88F5-1F6662E9368A.root
+07-May-2026 20:50:29 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/3DF15DC5-CB2E-EE42-9B31-EFC6063C20D6.root
+[2026-05-07 20:50:31.657436 +0900][Error  ][AsyncSock         ] [t2dsk0017.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:50:31.657494 +0900][Error  ][PostMaster        ] [t2dsk0017.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:50:31.657499 +0900][Error  ][PostMaster        ] [t2dsk0017.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:50:31.657503 +0900][Error  ][XRootD            ] [t2dsk0017.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/3DF15DC5-CB2E-EE42-9B31-EFC6063C20D6.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:50:36 KST PostProcessEvent
+Data is served from T2_US_Caltech instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:50:37 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/3DF15DC5-CB2E-EE42-9B31-EFC6063C20D6.root
+07-May-2026 20:50:44 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/3DF15DC5-CB2E-EE42-9B31-EFC6063C20D6.root
+07-May-2026 20:50:44 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/1D444A04-C0C1-AE48-8A06-4BA8F597D70E.root
+[2026-05-07 20:50:47.213547 +0900][Error  ][AsyncSock         ] [t2dsk0023.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:50:47.213582 +0900][Error  ][PostMaster        ] [t2dsk0023.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:50:47.213586 +0900][Error  ][PostMaster        ] [t2dsk0023.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:50:47.213591 +0900][Error  ][XRootD            ] [t2dsk0023.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/1D444A04-C0C1-AE48-8A06-4BA8F597D70E.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:50:49 KST PostProcessEvent
+Data is served from T2_US_Caltech instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:50:50 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/1D444A04-C0C1-AE48-8A06-4BA8F597D70E.root
+07-May-2026 20:50:55 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/1D444A04-C0C1-AE48-8A06-4BA8F597D70E.root
+07-May-2026 20:50:55 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/50A194AC-6394-C541-AAA0-4CEEEB6A9EF8.root
+[2026-05-07 20:50:56.953017 +0900][Error  ][AsyncSock         ] [t2dsk0013.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:50:56.953054 +0900][Error  ][PostMaster        ] [t2dsk0013.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:50:56.953059 +0900][Error  ][PostMaster        ] [t2dsk0013.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:50:56.953063 +0900][Error  ][XRootD            ] [t2dsk0013.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/1D444A04-C0C1-AE48-8A06-4BA8F597D70E.root?tried=k8s-transfer-18.ultralight.org, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:51:02 KST PostProcessEvent
+Data is served from T2_US_Caltech instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:51:06 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/50A194AC-6394-C541-AAA0-4CEEEB6A9EF8.root
+[2026-05-07 20:53:01.561009 +0900][Error  ][AsyncSock         ] [t2dsk0021.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:53:01.561073 +0900][Error  ][PostMaster        ] [t2dsk0021.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:53:01.561078 +0900][Error  ][PostMaster        ] [t2dsk0021.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:53:01.561082 +0900][Error  ][XRootD            ] [t2dsk0021.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/50A194AC-6394-C541-AAA0-4CEEEB6A9EF8.root?tried=k8s-transfer-16.ultralight.org,k8s-transfer-15.ultralight.org, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  (NoModuleName) 07-May-2026 20:53:06 KST pre-events
+Data is now served from T2_US_Caltech, T2_UK_SGrid_RALPP instead of previous T2_US_Caltech
+%MSG
+%MSG-w XrdAdaptor:  AfterFile 07-May-2026 20:53:10 KST PostProcessEvent
+Data is now served from T2_UK_SGrid_RALPP instead of previous T2_US_Caltech, T2_UK_SGrid_RALPP
+%MSG
+[2026-05-07 20:53:12.244394 +0900][Error  ][AsyncSock         ] [t2dsk0027.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:53:12.244429 +0900][Error  ][PostMaster        ] [t2dsk0027.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:53:12.244435 +0900][Error  ][PostMaster        ] [t2dsk0027.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:53:12.244439 +0900][Error  ][XRootD            ] [t2dsk0027.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/50A194AC-6394-C541-AAA0-4CEEEB6A9EF8.root?tried=k8s-transfer-15.ultralight.org,heplnx228.pp.rl.ac.uk,k8s-transfer-16.ultralight.org, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+Unable to load sec.protocol plugin libXrdSecztn.so
+07-May-2026 20:53:22 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/50A194AC-6394-C541-AAA0-4CEEEB6A9EF8.root
+07-May-2026 20:53:22 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/65094C9A-31E1-CE43-98F1-49EC99044546.root
+[2026-05-07 20:53:25.329089 +0900][Error  ][AsyncSock         ] [t2dsk0018.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:53:25.329119 +0900][Error  ][PostMaster        ] [t2dsk0018.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:53:25.329128 +0900][Error  ][PostMaster        ] [t2dsk0018.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:53:25.329132 +0900][Error  ][XRootD            ] [t2dsk0018.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/65094C9A-31E1-CE43-98F1-49EC99044546.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:53:31 KST PostProcessEvent
+Data is served from sprace.org.br instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:53:32 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/65094C9A-31E1-CE43-98F1-49EC99044546.root
+07-May-2026 20:53:43 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/65094C9A-31E1-CE43-98F1-49EC99044546.root
+07-May-2026 20:53:43 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/501BD0A1-6FDA-1C46-88C6-D6404CA41716.root
+[2026-05-07 20:53:46.428465 +0900][Error  ][AsyncSock         ] [xrootd8.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:53:46.428518 +0900][Error  ][PostMaster        ] [xrootd8.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:53:46.428524 +0900][Error  ][PostMaster        ] [xrootd8.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:53:46.428527 +0900][Error  ][XRootD            ] [xrootd8.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/501BD0A1-6FDA-1C46-88C6-D6404CA41716.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:53:52 KST PostProcessEvent
+Data is served from T2_BE_UCL instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:53:53 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/501BD0A1-6FDA-1C46-88C6-D6404CA41716.root
+07-May-2026 20:54:09 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/501BD0A1-6FDA-1C46-88C6-D6404CA41716.root
+07-May-2026 20:54:09 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/DC074C8A-3ECE-F445-85A5-2537A8FB92FB.root
+[2026-05-07 20:54:12.533836 +0900][Error  ][AsyncSock         ] [t2dsk0026.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:54:12.533864 +0900][Error  ][PostMaster        ] [t2dsk0026.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:54:12.533868 +0900][Error  ][PostMaster        ] [t2dsk0026.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:54:12.533872 +0900][Error  ][XRootD            ] [t2dsk0026.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/DC074C8A-3ECE-F445-85A5-2537A8FB92FB.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:54:14 KST PostProcessEvent
+Data is served from T2_US_Caltech instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:54:17 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/DC074C8A-3ECE-F445-85A5-2537A8FB92FB.root
+[2026-05-07 20:54:21.959698 +0900][Error  ][AsyncSock         ] [t2dsk0014.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:54:21.959731 +0900][Error  ][PostMaster        ] [t2dsk0014.cmsaf.mit.edu:1094 #0] elapsed = 0, pConnectionWindow = 31 seconds.
+[2026-05-07 20:54:21.959741 +0900][Error  ][PostMaster        ] [t2dsk0014.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:54:21.959745 +0900][Error  ][XRootD            ] [t2dsk0014.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/DC074C8A-3ECE-F445-85A5-2537A8FB92FB.root?tried=k8s-transfer-16.ultralight.org, mode: 0460, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptor:  (NoModuleName) 07-May-2026 20:54:33 KST pre-events
+Data is now served from T2_US_Caltech, T2_UK_SGrid_RALPP instead of previous T2_US_Caltech
+%MSG
+07-May-2026 20:54:34 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/DC074C8A-3ECE-F445-85A5-2537A8FB92FB.root
+07-May-2026 20:54:34 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/B864FD9E-611D-6142-A468-3BE0B8ED0195.root
+[2026-05-07 20:54:37.144042 +0900][Error  ][AsyncSock         ] [xrootd2.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:54:37.144085 +0900][Error  ][PostMaster        ] [xrootd2.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:54:37.144089 +0900][Error  ][PostMaster        ] [xrootd2.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:54:37.144093 +0900][Error  ][XRootD            ] [xrootd2.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/B864FD9E-611D-6142-A468-3BE0B8ED0195.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:54:46 KST PostProcessEvent
+Data is served from cscs.ch instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:54:48 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/B864FD9E-611D-6142-A468-3BE0B8ED0195.root
+[2026-05-07 20:54:53.173905 +0900][Error  ][AsyncSock         ] [t2dsk0024.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:54:53.173934 +0900][Error  ][PostMaster        ] [t2dsk0024.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:54:53.173939 +0900][Error  ][PostMaster        ] [t2dsk0024.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:54:53.173942 +0900][Error  ][XRootD            ] [t2dsk0024.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/B864FD9E-611D-6142-A468-3BE0B8ED0195.root?tried=cms03.lcg.cscs.ch, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptor:  (NoModuleName) 07-May-2026 20:54:56 KST pre-events
+Data is now served from cscs.ch, T2_IT_Pisa instead of previous cscs.ch
+%MSG
+07-May-2026 20:55:02 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/B864FD9E-611D-6142-A468-3BE0B8ED0195.root
+07-May-2026 20:55:02 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/66E683F5-BAA6-9747-B3EA-825C424440CB.root
+[2026-05-07 20:55:05.292710 +0900][Error  ][AsyncSock         ] [t2dsk0019.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:55:05.292738 +0900][Error  ][PostMaster        ] [t2dsk0019.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:55:05.292742 +0900][Error  ][PostMaster        ] [t2dsk0019.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:55:05.292746 +0900][Error  ][XRootD            ] [t2dsk0019.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/66E683F5-BAA6-9747-B3EA-825C424440CB.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:55:14 KST PostProcessEvent
+Data is served from pic.es instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:55:15 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/66E683F5-BAA6-9747-B3EA-825C424440CB.root
+[2026-05-07 20:55:21.426792 +0900][Error  ][AsyncSock         ] [t2dsk0022.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:55:21.427098 +0900][Error  ][PostMaster        ] [t2dsk0022.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:55:21.427102 +0900][Error  ][PostMaster        ] [t2dsk0022.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:55:21.427106 +0900][Error  ][XRootD            ] [t2dsk0022.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/66E683F5-BAA6-9747-B3EA-825C424440CB.root?tried=xrootd01-cmst1.pic.es, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+07-May-2026 20:55:25 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/66E683F5-BAA6-9747-B3EA-825C424440CB.root
+07-May-2026 20:55:25 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/EE9AAABC-2A68-4C4F-B0A6-8C5F1B472602.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:55:32 KST PostProcessEvent
+Data is served from pic.es instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:55:34 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/EE9AAABC-2A68-4C4F-B0A6-8C5F1B472602.root
+[2026-05-07 20:55:40.016683 +0900][Error  ][AsyncSock         ] [t2dsk0013.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:55:40.016726 +0900][Error  ][PostMaster        ] [t2dsk0013.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:55:40.016730 +0900][Error  ][PostMaster        ] [t2dsk0013.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:55:40.016734 +0900][Error  ][XRootD            ] [t2dsk0013.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/EE9AAABC-2A68-4C4F-B0A6-8C5F1B472602.root?tried=xrootd01-cmst1.pic.es, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+07-May-2026 20:55:44 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/EE9AAABC-2A68-4C4F-B0A6-8C5F1B472602.root
+07-May-2026 20:55:44 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/8854C104-C873-A242-90CC-558E3EABE8A7.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:55:58 KST PostProcessEvent
+Data is served from desy.de instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:55:59 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/8854C104-C873-A242-90CC-558E3EABE8A7.root
+07-May-2026 20:56:09 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/8854C104-C873-A242-90CC-558E3EABE8A7.root
+07-May-2026 20:56:09 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/C62D4AE3-BDAD-B44A-A6A5-D156717512E9.root
+[2026-05-07 20:56:13.166060 +0900][Error  ][AsyncSock         ] [xrootd3.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:56:13.166094 +0900][Error  ][PostMaster        ] [xrootd3.cmsaf.mit.edu:1094 #0] elapsed = 3, pConnectionWindow = 31 seconds.
+[2026-05-07 20:56:13.166099 +0900][Error  ][PostMaster        ] [xrootd3.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:56:13.166104 +0900][Error  ][XRootD            ] [xrootd3.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/C62D4AE3-BDAD-B44A-A6A5-D156717512E9.root, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:56:17 KST PostProcessEvent
+Data is served from T2_US_Wisconsin instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:56:18 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/C62D4AE3-BDAD-B44A-A6A5-D156717512E9.root
+07-May-2026 20:56:23 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/C62D4AE3-BDAD-B44A-A6A5-D156717512E9.root
+07-May-2026 20:56:23 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/1F558F3F-CA8C-E04B-8065-C4A1D736107E.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:56:28 KST PostProcessEvent
+Data is served from T2_US_Wisconsin instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:56:29 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/1F558F3F-CA8C-E04B-8065-C4A1D736107E.root
+[2026-05-07 20:56:33.955947 +0900][Error  ][AsyncSock         ] [t2dsk0017.cmsaf.mit.edu:1094 #0.0] Socket error while handshaking: [FATAL] Auth failed
+[2026-05-07 20:56:33.955985 +0900][Error  ][PostMaster        ] [t2dsk0017.cmsaf.mit.edu:1094 #0] elapsed = 1, pConnectionWindow = 31 seconds.
+[2026-05-07 20:56:33.955990 +0900][Error  ][PostMaster        ] [t2dsk0017.cmsaf.mit.edu:1094 #0] Unable to recover: [FATAL] Auth failed.
+[2026-05-07 20:56:33.955995 +0900][Error  ][XRootD            ] [t2dsk0017.cmsaf.mit.edu:1094] Impossible to send message kXR_open (file: /store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/1F558F3F-CA8C-E04B-8065-C4A1D736107E.root?tried=g41n06.hep.wisc.edu, mode: 0660, flags: kXR_open_read kXR_async kXR_retstat ). Trying to recover.
+07-May-2026 20:56:34 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL16MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-60_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mcRun2_asymptotic_v17-v2/2530000/1F558F3F-CA8C-E04B-8065-C4A1D736107E.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		1.225e-01 +/- 4.404e-05		56429	56429	0	56429	56429	0	1.225e-01 +/- 4.404e-05		100.0 +/- 0.0	100.0 +/- 0.0
+1		1.226e-01 +/- 4.179e-05		56295	56295	0	56295	56295	0	1.226e-01 +/- 4.179e-05		100.0 +/- 0.0	100.0 +/- 0.0
+2		6.129e-02 +/- 2.834e-05		28095	28095	0	28095	28095	0	6.129e-02 +/- 2.834e-05		100.0 +/- 0.0	100.0 +/- 0.0
+3		1.225e-01 +/- 4.005e-05		56584	56584	0	56584	56584	0	1.225e-01 +/- 4.005e-05		100.0 +/- 0.0	100.0 +/- 0.0
+4		1.226e-01 +/- 3.910e-05		56669	56669	0	56669	56669	0	1.226e-01 +/- 3.910e-05		100.0 +/- 0.0	100.0 +/- 0.0
+5		6.137e-02 +/- 2.955e-05		28421	28421	0	28421	28421	0	6.137e-02 +/- 2.955e-05		100.0 +/- 0.0	100.0 +/- 0.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		6.130e-01 +/- 9.217e-05		282493	282493	0	282493	282493	0	6.130e-01 +/- 9.217e-05		100.0 +/- 0.0	100.0 +/- 0.0
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 6.130e-01 +- 9.217e-05 pb
+After matching: total cross section = 6.130e-01 +- 9.217e-05 pb
+Matching efficiency = 1.0 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (121241) / (173212) = 7.000e-01 +- 8.622e-04
+Filter efficiency (event-level)= (197731) / (282493) = 7.000e-01 +- 8.622e-04    [TO BE USED IN MCM]
+
+After filter: final cross section = 4.291e-01 +- 5.325e-04 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 2.331e+03 +- 3.715e+00
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      20       20
+    2 XrdAdaptor           -w (NoModuleName)                        13       13
+    3 XrdAdaptor           -w AfterFile                              5        5
+    4 XrdAdaptor           -w file_open                             25       25
+    5 XrdAdaptor           -w source                                 2        2
+    6 fileAction           -s file_close                            25       25
+    7 fileAction           -s file_open                             50       50
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 XrdAdaptor           pre-events       pre-events       pre-events
+    3 XrdAdaptor           PostProcessEvent PostProcessEvent PostProcessEvent
+    4 XrdAdaptor           pre-events       PostProcessEvent PostProcessEvent
+    5 XrdAdaptor           PostStreamBeginL PostStreamBeginL 
+    6 fileAction           PostProcessEvent PostProcessEvent PostGlobalEndRun
+    7 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                65                  65
+System                 75                  75
+
+dropped waiting message count 0
+
+================================================================================
+  SUCCESS!
+    Filter efficiency: 0.700000
+    Cross section: 0.429100 pb
+    Total files: 25
+    Total events: None
+
+================================================================================
+Results saved to: /home/choij/local/workspace/SKNanoMaker_Run2_CMSSW_10_6_28/src/Configuration/CustomNanoAOD/FilterEff/results_2016postVFP.json
+Processed 1 datasets successfully
+================================================================================
+
+================================================================================
+Result for single dataset:
+{
+  "TTToHcToWAToMuMu_MHc-160_MA-60": {
+    "filter_efficiency": 0.7,
+    "filter_efficiency_error": 0.0008622,
+    "cross_section": 0.4291,
+    "cross_section_error": 0.0005325,
+    "total_files": 25,
+    "total_events": null
+  }
+}
+
+Saved to: /home/choij/local/workspace/SKNanoMaker_Run2_CMSSW_10_6_28/src/Configuration/CustomNanoAOD/FilterEff/sample_2016postVFP_TTToHcToWAToMuMu_MHc-160_MA-60.json
+================================================================================
+
+Done!

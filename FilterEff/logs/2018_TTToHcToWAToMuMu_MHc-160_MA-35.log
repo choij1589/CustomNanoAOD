@@ -1,0 +1,244 @@
+
+================================================================================
+Filter Efficiency Calculator
+Mode: Single dataset test
+Dataset: /TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/MINIAODSIM
+Dry run: False
+================================================================================
+
+================================================================================
+Processing: TTToHcToWAToMuMu_MHc-160_MA-35
+Dataset: /TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/MINIAODSIM
+================================================================================
+  Querying DAS for files...
+  Found 14 files
+  Running cmsRun with 14 files...
+
+  FULL STDOUT OUTPUT:
+================================================================================
+      0.184327      0.001705      0.929686             1
+      0.186342      0.001729      0.929686             0
+      0.187316      0.001875      0.929686             3
+      0.095611      0.001242      0.929686             2
+      0.091856      0.001260      0.929686             5
+      0.184234      0.001738      0.929686             4
+ 
+
+================================================================================
+
+  FULL STDERR OUTPUT:
+================================================================================
+07-May-2026 20:41:50 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/49211CA3-8779-B44B-8610-5F92F28BA256.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:41:57 KST pre-events
+Data is served from T2_US_UCSD-ceph instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:42:10 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/49211CA3-8779-B44B-8610-5F92F28BA256.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+Begin processing the 1st record. Run 1, Event 89481, LumiSection 61 on stream 0 at 07-May-2026 20:42:21.700 KST
+07-May-2026 20:42:22 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/49211CA3-8779-B44B-8610-5F92F28BA256.root
+07-May-2026 20:42:22 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/4112D45F-950C-D142-91E9-8BB6D9D429A2.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:42:25 KST PostProcessEvent
+Data is served from T2_US_UCSD-ceph instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:42:25 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/4112D45F-950C-D142-91E9-8BB6D9D429A2.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+07-May-2026 20:42:35 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/4112D45F-950C-D142-91E9-8BB6D9D429A2.root
+07-May-2026 20:42:35 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/78371049-2694-124D-A881-C6C6E4E4B338.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:42:39 KST PostProcessEvent
+Data is served from T2_US_UCSD-ceph instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:42:40 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/78371049-2694-124D-A881-C6C6E4E4B338.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  (NoModuleName) 07-May-2026 20:43:13 KST pre-events
+Data is now served from T2_US_UCSD-ceph, T2_IT_Pisa instead of previous T2_US_UCSD-ceph
+%MSG
+07-May-2026 20:43:18 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/78371049-2694-124D-A881-C6C6E4E4B338.root
+07-May-2026 20:43:18 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/6D0417D1-ADD3-0843-B7A1-861EF9FE77AF.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:43:22 KST PostProcessEvent
+Data is served from T2_US_UCSD-ceph instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:43:23 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/6D0417D1-ADD3-0843-B7A1-861EF9FE77AF.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+Begin processing the 100001st record. Run 1, Event 371479, LumiSection 250 on stream 0 at 07-May-2026 20:43:58.210 KST
+07-May-2026 20:43:58 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/6D0417D1-ADD3-0843-B7A1-861EF9FE77AF.root
+07-May-2026 20:43:58 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/8777539B-6245-6846-B0E2-6AA48F350A92.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:44:02 KST PostProcessEvent
+Data is served from T2_US_UCSD-ceph instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:44:03 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/8777539B-6245-6846-B0E2-6AA48F350A92.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+07-May-2026 20:44:16 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/8777539B-6245-6846-B0E2-6AA48F350A92.root
+07-May-2026 20:44:16 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/06269A6C-9EF5-884F-9D51-84D75CBDD157.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:44:19 KST PostProcessEvent
+Data is served from T2_US_UCSD-ceph instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:44:20 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/06269A6C-9EF5-884F-9D51-84D75CBDD157.root
+%MSG-w XrdAdaptor:  (NoModuleName) 07-May-2026 20:44:47 KST pre-events
+Data is now served from T2_US_UCSD-ceph, T2_IT_Pisa instead of previous T2_US_UCSD-ceph
+%MSG
+%MSG-w XrdAdaptor:  source 07-May-2026 20:45:07 KST PostStreamBeginLumi
+Data is now served from T2_US_UCSD-ceph instead of previous T2_US_UCSD-ceph, T2_IT_Pisa
+%MSG
+%MSG-w XrdAdaptor:  (NoModuleName) 07-May-2026 20:45:12 KST pre-events
+Data is now served from T2_US_UCSD-ceph, T2_IT_Pisa instead of previous T2_US_UCSD-ceph
+%MSG
+07-May-2026 20:45:13 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/06269A6C-9EF5-884F-9D51-84D75CBDD157.root
+07-May-2026 20:45:13 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/85A6EBE5-A6F2-EB4A-B42E-D89DE3683EC7.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:45:16 KST PostProcessEvent
+Data is served from T2_US_UCSD-ceph instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:45:17 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/85A6EBE5-A6F2-EB4A-B42E-D89DE3683EC7.root
+Begin processing the 200001st record. Run 1, Event 176199, LumiSection 119 on stream 0 at 07-May-2026 20:45:52.123 KST
+07-May-2026 20:45:54 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/85A6EBE5-A6F2-EB4A-B42E-D89DE3683EC7.root
+07-May-2026 20:45:54 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/B2963293-C1F4-DC40-B584-61E38B55AD0A.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:45:57 KST PostProcessEvent
+Data is served from T2_US_UCSD-ceph instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:45:58 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/B2963293-C1F4-DC40-B584-61E38B55AD0A.root
+07-May-2026 20:46:15 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/B2963293-C1F4-DC40-B584-61E38B55AD0A.root
+07-May-2026 20:46:15 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/98E22D58-5E78-ED4C-9445-104341C6F0AD.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:46:18 KST PostProcessEvent
+Data is served from T2_US_UCSD-ceph instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:46:19 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/98E22D58-5E78-ED4C-9445-104341C6F0AD.root
+%MSG-w XrdAdaptor:  (NoModuleName) 07-May-2026 20:46:41 KST pre-events
+Data is now served from T2_US_UCSD-ceph, T2_IT_Pisa instead of previous T2_US_UCSD-ceph
+%MSG
+Begin processing the 300001st record. Run 1, Event 300343, LumiSection 202 on stream 0 at 07-May-2026 20:46:54.100 KST
+07-May-2026 20:46:55 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/98E22D58-5E78-ED4C-9445-104341C6F0AD.root
+07-May-2026 20:46:55 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/FDD4C93F-4BA0-B94C-B88E-68A8F4560760.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:47:00 KST PostProcessEvent
+Data is served from fnal.gov instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:47:01 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/FDD4C93F-4BA0-B94C-B88E-68A8F4560760.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  (NoModuleName) 07-May-2026 20:47:09 KST pre-events
+Data is now served from fnal.gov, T2_US_UCSD-ceph instead of previous fnal.gov
+%MSG
+07-May-2026 20:47:17 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/FDD4C93F-4BA0-B94C-B88E-68A8F4560760.root
+07-May-2026 20:47:17 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/EC2E8BC0-A990-1845-B2A1-A06FD7782721.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:47:20 KST PostProcessEvent
+Data is served from T2_US_UCSD-ceph instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:47:20 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/EC2E8BC0-A990-1845-B2A1-A06FD7782721.root
+07-May-2026 20:47:43 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/EC2E8BC0-A990-1845-B2A1-A06FD7782721.root
+07-May-2026 20:47:43 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/58478C15-AFD9-C74F-B7E3-61217FA039E4.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:47:48 KST PostProcessEvent
+Data is served from T2_US_Wisconsin instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:47:49 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/58478C15-AFD9-C74F-B7E3-61217FA039E4.root
+%MSG-w XrdAdaptor:  (NoModuleName) 07-May-2026 20:47:54 KST pre-events
+Data is now served from T2_US_Wisconsin, T2_US_UCSD-ceph instead of previous T2_US_Wisconsin
+%MSG
+07-May-2026 20:48:04 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/58478C15-AFD9-C74F-B7E3-61217FA039E4.root
+07-May-2026 20:48:04 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/E3ECAC97-9750-634C-B34F-8DF121897DF1.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:48:07 KST PostProcessEvent
+Data is served from T2_US_UCSD-ceph instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:48:08 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/E3ECAC97-9750-634C-B34F-8DF121897DF1.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  (NoModuleName) 07-May-2026 20:48:28 KST pre-events
+Data is now served from T2_US_UCSD-ceph, jinr-t1.ru instead of previous T2_US_UCSD-ceph
+%MSG
+%MSG-w XrdAdaptor:  source 07-May-2026 20:48:32 KST PostStreamBeginLumi
+Data is now served from T2_US_UCSD-ceph instead of previous T2_US_UCSD-ceph, jinr-t1.ru
+%MSG
+07-May-2026 20:48:36 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/E3ECAC97-9750-634C-B34F-8DF121897DF1.root
+07-May-2026 20:48:36 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/E86F4286-C402-D84E-BBCE-73F7E097E869.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:48:39 KST PostProcessEvent
+Data is served from T2_US_UCSD-ceph instead of original site CERN-CMSGLOBAL-02
+%MSG
+07-May-2026 20:48:40 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/E86F4286-C402-D84E-BBCE-73F7E097E869.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+Begin processing the 400001st record. Run 1, Event 510301, LumiSection 343 on stream 0 at 07-May-2026 20:48:55.149 KST
+07-May-2026 20:48:55 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL18MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_upgrade2018_realistic_v16_L1v1-v2/2830000/E86F4286-C402-D84E-BBCE-73F7E097E869.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		1.868e-01 +/- 4.354e-05		119122	119122	0	119122	119122	0	1.868e-01 +/- 4.354e-05		100.0 +/- 0.0	100.0 +/- 0.0
+1		1.866e-01 +/- 4.347e-05		118723	118723	0	118723	118723	0	1.866e-01 +/- 4.347e-05		100.0 +/- 0.0	100.0 +/- 0.0
+2		9.316e-02 +/- 3.098e-05		59040	59040	0	59040	59040	0	9.316e-02 +/- 3.098e-05		100.0 +/- 0.0	100.0 +/- 0.0
+3		1.865e-01 +/- 4.650e-05		118640	118640	0	118640	118640	0	1.865e-01 +/- 4.650e-05		100.0 +/- 0.0	100.0 +/- 0.0
+4		1.865e-01 +/- 4.350e-05		118680	118680	0	118680	118680	0	1.865e-01 +/- 4.350e-05		100.0 +/- 0.0	100.0 +/- 0.0
+5		9.334e-02 +/- 3.192e-05		59282	59282	0	59282	59282	0	9.334e-02 +/- 3.192e-05		100.0 +/- 0.0	100.0 +/- 0.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		9.329e-01 +/- 9.909e-05		593487	593487	0	593487	593487	0	9.329e-01 +/- 9.909e-05		100.0 +/- 0.0	100.0 +/- 0.0
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 9.329e-01 +- 9.909e-05 pb
+After matching: total cross section = 9.329e-01 +- 9.909e-05 pb
+Matching efficiency = 1.0 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (374851) / (553749) = 6.769e-01 +- 6.070e-04
+Filter efficiency (event-level)= (401751) / (593487) = 6.769e-01 +- 6.070e-04    [TO BE USED IN MCM]
+
+After filter: final cross section = 6.315e-01 +- 5.703e-04 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 1.584e+03 +- 2.134e+00
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      20       20
+    2 XrdAdaptor           -w (NoModuleName)                         7        7
+    3 XrdAdaptor           -w file_open                             14       14
+    4 XrdAdaptor           -w source                                 2        2
+    5 fileAction           -s file_close                            14       14
+    6 fileAction           -s file_open                             28       28
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 XrdAdaptor           pre-events       pre-events       pre-events
+    3 XrdAdaptor           pre-events       PostProcessEvent PostProcessEvent
+    4 XrdAdaptor           PostStreamBeginL PostStreamBeginL 
+    5 fileAction           PostProcessEvent PostProcessEvent PostGlobalEndRun
+    6 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                43                  43
+System                 42                  42
+
+dropped waiting message count 0
+
+================================================================================
+  SUCCESS!
+    Filter efficiency: 0.676900
+    Cross section: 0.631500 pb
+    Total files: 14
+    Total events: None
+
+================================================================================
+Results saved to: /home/choij/local/workspace/SKNanoMaker_Run2_CMSSW_10_6_28/src/Configuration/CustomNanoAOD/FilterEff/results_2018.json
+Processed 1 datasets successfully
+================================================================================
+
+================================================================================
+Result for single dataset:
+{
+  "TTToHcToWAToMuMu_MHc-160_MA-35": {
+    "filter_efficiency": 0.6769,
+    "filter_efficiency_error": 0.000607,
+    "cross_section": 0.6315,
+    "cross_section_error": 0.0005703,
+    "total_files": 14,
+    "total_events": null
+  }
+}
+
+Saved to: /home/choij/local/workspace/SKNanoMaker_Run2_CMSSW_10_6_28/src/Configuration/CustomNanoAOD/FilterEff/sample_2018_TTToHcToWAToMuMu_MHc-160_MA-35.json
+================================================================================
+
+Done!

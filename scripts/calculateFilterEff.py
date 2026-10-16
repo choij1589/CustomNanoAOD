@@ -104,11 +104,13 @@ def run_cmsrun(files, base_dir, dry_run=False, sample_mode=False):
             timeout=7200  # 2 hour timeout
         )
 
-        if result.returncode != 0:
-            return None
-
-        # Return combined stdout and stderr for parsing
         combined_output = result.stdout + "\n" + result.stderr
+
+        if result.returncode != 0:
+            # Still try to parse if GenXsecAnalyzer output is present
+            if 'Filter efficiency' not in combined_output:
+                return None
+
         return combined_output
 
     except subprocess.TimeoutExpired:
@@ -356,16 +358,20 @@ class FilterEffCalculator:
                 timeout=7200  # 2 hour timeout
             )
 
+            combined_output = result.stdout + "\n" + result.stderr
+
             if result.returncode != 0:
-                print(f"  ERROR: cmsRun failed with return code {result.returncode}")
+                print(f"  WARNING: cmsRun exited with return code {result.returncode} (likely a file open error on a specific XRootD replica)")
                 if self.sample_mode:
                     print(f"\n  FULL STDERR OUTPUT:")
                     print("="*80)
                     print(result.stderr)
                     print("="*80)
                 else:
-                    print(f"  STDERR (last 2000 chars): {result.stderr[-2000:]}")
-                return None
+                    print(f"  STDERR (last 500 chars): {result.stderr[-500:]}")
+                # Still try to parse — GenXsecAnalyzer may have already output results before the crash
+                if 'Filter efficiency' not in combined_output:
+                    return None
 
             # In sample mode, print full output for debugging
             if self.sample_mode:
@@ -378,8 +384,6 @@ class FilterEffCalculator:
                 print(result.stderr)
                 print("="*80)
 
-            # Return combined stdout and stderr for parsing (GenXSecAnalyzer uses MessageLogger -> stderr)
-            combined_output = result.stdout + "\n" + result.stderr
             return combined_output
 
         except subprocess.TimeoutExpired:
@@ -544,8 +548,9 @@ class FilterEffCalculator:
         output_dir.mkdir(exist_ok=True)
 
         if self.sample_mode and process_name:
-            # For sample mode, use process name as filename
-            return output_dir / f'sample_{process_name}.json'
+            # For sample mode, include era in filename if available
+            prefix = f'sample_{self.era}_' if self.era else 'sample_'
+            return output_dir / f'{prefix}{process_name}.json'
         elif self.era:
             return output_dir / f'results_{self.era}.json'
         else:
@@ -729,14 +734,12 @@ Examples:
 """
     )
 
-    # Create mutually exclusive group for era and sample
-    group = parser.add_mutually_exclusive_group(required=True)
-    group.add_argument(
+    parser.add_argument(
         '--era',
         choices=['2016preVFP', '2016postVFP', '2017', '2018', 'all'],
-        help='Era to process'
+        help='Era to process (required without --sample; optional with --sample to tag output by era)'
     )
-    group.add_argument(
+    parser.add_argument(
         '--sample',
         help='Process a single dataset (for testing/debugging)'
     )
@@ -766,8 +769,10 @@ Examples:
 
     # Handle single sample mode
     if args.sample:
+        if not args.era and not args.sample:
+            parser.error("at least one of --era or --sample is required")
         try:
-            calculator = FilterEffCalculator(dry_run=args.dry_run, sample_mode=True)
+            calculator = FilterEffCalculator(era=args.era, dry_run=args.dry_run, sample_mode=True)
             calculator.run(single_dataset=args.sample, n_jobs=1)  # Always single-threaded for sample mode
         except Exception as e:
             print(f"\nERROR processing sample: {e}")

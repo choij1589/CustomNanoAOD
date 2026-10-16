@@ -9,12 +9,12 @@ mkdir -p "$LOG_DIR"
 
 # Missing datasets: "era|dataset_path"
 declare -a MISSING=(
-  "2016preVFP|/TTToHcToWAToMuMu_MHc-70_MA-65_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v2/MINIAODSIM"
-  "2017|/TTToHcToWAToMuMu_MHc-115_MA-27_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v3/MINIAODSIM"
-  "2018|/TTToHcToWAToMuMu_MHc-85_MA-15_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/MINIAODSIM"
-  "2018|/TTToHcToWAToMuMu_MHc-100_MA-95_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v2/MINIAODSIM"
+  "2016preVFP|/TTToHcToWAToMuMu_MHc-160_MA-35_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v2/MINIAODSIM"
+  "2016preVFP|/TTToHcToWAToMuMu_MHc-160_MA-95_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODAPVv2-106X_mcRun2_asymptotic_preVFP_v11-v2/MINIAODSIM"
+  "2016postVFP|/TTToHcToWAToMuMu_MHc-160_MA-30_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/MINIAODSIM"
+  "2016postVFP|/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/MINIAODSIM"
+  "2016postVFP|/TTToHcToWAToMuMu_MHc-160_MA-135_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL16MiniAODv2-106X_mcRun2_asymptotic_v17-v2/MINIAODSIM"
   "2018|/TTToHcToWAToMuMu_MHc-115_MA-87_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/MINIAODSIM"
-  "2018|/TTToHcToWAToMuMu_MHc-160_MA-50_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL18MiniAODv2-106X_upgrade2018_realistic_v16_L1v1-v3/MINIAODSIM"
 )
 
 declare -a PIDS=()
@@ -31,7 +31,7 @@ for entry in "${MISSING[@]}"; do
     logfile="$LOG_DIR/${era}_${process}.log"
 
     echo "Submitting: $process ($era)"
-    python3 "$CALC" --sample "$dataset" > "$logfile" 2>&1 &
+    python3 "$CALC" --era "$era" --sample "$dataset" > "$logfile" 2>&1 &
     PIDS+=($!)
     ERAS+=("$era")
     DATASETS+=("$dataset")
@@ -67,19 +67,19 @@ python3 - <<'PYEOF'
 import json, re
 from pathlib import Path
 
-base = Path(__file__).parent if '__file__' in dir() else Path('/home/choij/local/workspace/SKNanoMaker_Run2_CMSSW_10_6_28/src/Configuration/CustomNanoAOD/FilterEff')
+base = Path('/home/choij/local/workspace/SKNanoMaker_Run2_CMSSW_10_6_28/src/Configuration/CustomNanoAOD/FilterEff')
 
 missing = [
-    ("2016preVFP", "TTToHcToWAToMuMu_MHc-70_MA-65"),
-    ("2017",       "TTToHcToWAToMuMu_MHc-115_MA-27"),
-    ("2018",       "TTToHcToWAToMuMu_MHc-85_MA-15"),
-    ("2018",       "TTToHcToWAToMuMu_MHc-100_MA-95"),
-    ("2018",       "TTToHcToWAToMuMu_MHc-115_MA-87"),
-    ("2018",       "TTToHcToWAToMuMu_MHc-160_MA-50"),
+    ("2016preVFP", "TTToHcToWAToMuMu_MHc-160_MA-35"),
+    ("2016preVFP", "TTToHcToWAToMuMu_MHc-160_MA-95"),
+    ("2016postVFP", "TTToHcToWAToMuMu_MHc-160_MA-30"),
+    ("2016postVFP", "TTToHcToWAToMuMu_MHc-160_MA-40"),
+    ("2016postVFP", "TTToHcToWAToMuMu_MHc-160_MA-135"),
+    ("2018", "TTToHcToWAToMuMu_MHc-115_MA-87"),
 ]
 
 for era, process in missing:
-    sample_file = base / f'sample_{process}.json'
+    sample_file = base / f'sample_{era}_{process}.json'
     results_file = base / f'results_{era}.json'
 
     if not sample_file.exists():

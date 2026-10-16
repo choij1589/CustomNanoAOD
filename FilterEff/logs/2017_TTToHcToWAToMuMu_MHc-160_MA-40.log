@@ -1,0 +1,272 @@
+
+================================================================================
+Filter Efficiency Calculator
+Mode: Single dataset test
+Dataset: /TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v2/MINIAODSIM
+Dry run: False
+================================================================================
+
+================================================================================
+Processing: TTToHcToWAToMuMu_MHc-160_MA-40
+Dataset: /TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/RunIISummer20UL17MiniAODv2-106X_mc2017_realistic_v9-v2/MINIAODSIM
+================================================================================
+  Querying DAS for files...
+  Found 23 files
+  Running cmsRun with 23 files...
+
+  FULL STDOUT OUTPUT:
+================================================================================
+      0.191054      0.001855      0.948624             1
+      0.189841      0.001751      0.948624             0
+      0.191911      0.001879      0.948624             3
+      0.095055      0.001309      0.948624             2
+      0.093428      0.001226      0.948624             5
+      0.187334      0.001777      0.948624             4
+ 
+
+================================================================================
+
+  FULL STDERR OUTPUT:
+================================================================================
+07-May-2026 20:41:50 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/929962E8-6CF0-274E-988C-047CEC3FA967.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:41:57 KST pre-events
+Data is served from T2_US_Purdue_EOS instead of original site CERN-CMSGLOBAL-01
+%MSG
+07-May-2026 20:42:10 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/929962E8-6CF0-274E-988C-047CEC3FA967.root
+Begin processing the 1st record. Run 1, Event 110974, LumiSection 77 on stream 0 at 07-May-2026 20:42:28.787 KST
+07-May-2026 20:42:29 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/929962E8-6CF0-274E-988C-047CEC3FA967.root
+07-May-2026 20:42:29 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/07C73623-6787-DE4A-8B4E-376B25B2E779.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:42:32 KST PostProcessEvent
+Data is served from T2_US_Purdue_EOS instead of original site CERN-CMSGLOBAL-01
+%MSG
+07-May-2026 20:42:33 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/07C73623-6787-DE4A-8B4E-376B25B2E779.root
+07-May-2026 20:42:56 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/07C73623-6787-DE4A-8B4E-376B25B2E779.root
+07-May-2026 20:42:56 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/87E26A74-CD25-8A4D-A758-63AF1E529DC2.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:42:59 KST PostProcessEvent
+Data is served from T2_US_Purdue_EOS instead of original site CERN-CMSGLOBAL-01
+%MSG
+07-May-2026 20:43:00 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/87E26A74-CD25-8A4D-A758-63AF1E529DC2.root
+07-May-2026 20:43:17 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/87E26A74-CD25-8A4D-A758-63AF1E529DC2.root
+07-May-2026 20:43:17 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/02BE05ED-B910-C648-B0AD-B4C6DB1DEA14.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:43:20 KST PostProcessEvent
+Data is served from T2_US_Purdue_EOS instead of original site CERN-CMSGLOBAL-01
+%MSG
+07-May-2026 20:43:21 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/02BE05ED-B910-C648-B0AD-B4C6DB1DEA14.root
+07-May-2026 20:43:40 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/02BE05ED-B910-C648-B0AD-B4C6DB1DEA14.root
+07-May-2026 20:43:40 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/448735DD-DC02-8846-957E-9D8A7654DEB6.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:43:43 KST PostProcessEvent
+Data is served from T2_US_Purdue_EOS instead of original site CERN-CMSGLOBAL-01
+%MSG
+07-May-2026 20:43:44 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/448735DD-DC02-8846-957E-9D8A7654DEB6.root
+07-May-2026 20:43:50 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/448735DD-DC02-8846-957E-9D8A7654DEB6.root
+07-May-2026 20:43:50 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/F4306C1B-ACF7-8945-BFAF-07973BFE2C1A.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:43:54 KST PostProcessEvent
+Data is served from T2_US_Purdue_EOS instead of original site CERN-CMSGLOBAL-01
+%MSG
+07-May-2026 20:43:55 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/F4306C1B-ACF7-8945-BFAF-07973BFE2C1A.root
+07-May-2026 20:44:02 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/F4306C1B-ACF7-8945-BFAF-07973BFE2C1A.root
+07-May-2026 20:44:02 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/7C51F83E-5137-B148-A183-3FF24C8787B7.root
+%MSG-w XrdAdaptor:  (NoModuleName) 07-May-2026 20:44:02 KST pre-events
+Data is now served from T2_US_Purdue_EOS, T2_US_Wisconsin instead of previous T2_US_Purdue_EOS
+%MSG
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:44:05 KST PostProcessEvent
+Data is served from T2_US_Purdue_EOS instead of original site CERN-CMSGLOBAL-01
+%MSG
+07-May-2026 20:44:06 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/7C51F83E-5137-B148-A183-3FF24C8787B7.root
+Begin processing the 100001st record. Run 1, Event 420792, LumiSection 289 on stream 0 at 07-May-2026 20:44:19.854 KST
+07-May-2026 20:44:20 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/7C51F83E-5137-B148-A183-3FF24C8787B7.root
+07-May-2026 20:44:20 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/B4F3BA05-DCBB-1E43-948D-645E6D6542AA.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:44:23 KST PostProcessEvent
+Data is served from T2_US_Purdue_EOS instead of original site CERN-CMSGLOBAL-01
+%MSG
+07-May-2026 20:44:24 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/B4F3BA05-DCBB-1E43-948D-645E6D6542AA.root
+07-May-2026 20:44:36 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/B4F3BA05-DCBB-1E43-948D-645E6D6542AA.root
+07-May-2026 20:44:36 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/045B6772-9207-1E41-9B9D-0EA62CB28613.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:44:39 KST PostProcessEvent
+Data is served from T2_US_Purdue_EOS instead of original site CERN-CMSGLOBAL-01
+%MSG
+07-May-2026 20:44:40 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/045B6772-9207-1E41-9B9D-0EA62CB28613.root
+07-May-2026 20:45:00 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/045B6772-9207-1E41-9B9D-0EA62CB28613.root
+07-May-2026 20:45:00 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/F65850F9-0C93-3F40-9903-91098D0120D1.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:45:05 KST PostProcessEvent
+Data is served from T2_US_Purdue_EOS instead of original site CERN-CMSGLOBAL-01
+%MSG
+07-May-2026 20:45:06 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/F65850F9-0C93-3F40-9903-91098D0120D1.root
+07-May-2026 20:45:40 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/F65850F9-0C93-3F40-9903-91098D0120D1.root
+07-May-2026 20:45:40 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/A5F55978-058D-AC40-86D0-865F22636474.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:45:45 KST PostProcessEvent
+Data is served from fnal.gov instead of original site CERN-CMSGLOBAL-01
+%MSG
+07-May-2026 20:45:46 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/A5F55978-058D-AC40-86D0-865F22636474.root
+%MSG-w XrdAdaptor:  (NoModuleName) 07-May-2026 20:45:53 KST pre-events
+Data is now served from fnal.gov, T2_US_Purdue_EOS instead of previous fnal.gov
+%MSG
+07-May-2026 20:46:00 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/A5F55978-058D-AC40-86D0-865F22636474.root
+07-May-2026 20:46:00 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/06166DB0-BE9C-3D46-A1BA-C4F3BA181F83.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:46:02 KST PostProcessEvent
+Data is served from fnal.gov instead of original site CERN-CMSGLOBAL-01
+%MSG
+07-May-2026 20:46:03 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/06166DB0-BE9C-3D46-A1BA-C4F3BA181F83.root
+%MSG-w XrdAdaptor:  (NoModuleName) 07-May-2026 20:46:11 KST pre-events
+Data is now served from fnal.gov, T2_US_Purdue_EOS instead of previous fnal.gov
+%MSG
+Begin processing the 200001st record. Run 1, Event 490380, LumiSection 336 on stream 0 at 07-May-2026 20:46:18.134 KST
+07-May-2026 20:46:18 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/06166DB0-BE9C-3D46-A1BA-C4F3BA181F83.root
+07-May-2026 20:46:18 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/92A25AE5-C3CF-9745-BC82-9AEE39B496EA.root
+Unable to load sec.protocol plugin libXrdSecztn.so
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:46:24 KST PostProcessEvent
+Data is served from fnal.gov instead of original site CERN-CMSGLOBAL-01
+%MSG
+07-May-2026 20:46:25 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/92A25AE5-C3CF-9745-BC82-9AEE39B496EA.root
+%MSG-w XrdAdaptor:  (NoModuleName) 07-May-2026 20:46:37 KST pre-events
+Data is now served from fnal.gov, T2_US_Purdue_EOS instead of previous fnal.gov
+%MSG
+07-May-2026 20:46:56 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/92A25AE5-C3CF-9745-BC82-9AEE39B496EA.root
+07-May-2026 20:46:56 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/18EEF308-77F9-B44D-9F7B-11F7CCF9079A.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:46:59 KST PostProcessEvent
+Data is served from T2_US_Purdue_EOS instead of original site CERN-CMSGLOBAL-01
+%MSG
+07-May-2026 20:47:00 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/18EEF308-77F9-B44D-9F7B-11F7CCF9079A.root
+07-May-2026 20:47:26 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/18EEF308-77F9-B44D-9F7B-11F7CCF9079A.root
+07-May-2026 20:47:26 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/CFB1D165-09EE-0047-93DF-5FF86F3C1689.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:47:29 KST PostProcessEvent
+Data is served from T2_US_Purdue_EOS instead of original site CERN-CMSGLOBAL-01
+%MSG
+07-May-2026 20:47:30 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/CFB1D165-09EE-0047-93DF-5FF86F3C1689.root
+07-May-2026 20:48:04 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/CFB1D165-09EE-0047-93DF-5FF86F3C1689.root
+07-May-2026 20:48:04 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/F3B36260-2B54-DA4E-9144-1F79A5247550.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:48:07 KST PostProcessEvent
+Data is served from T2_US_Purdue_EOS instead of original site CERN-CMSGLOBAL-01
+%MSG
+07-May-2026 20:48:08 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/F3B36260-2B54-DA4E-9144-1F79A5247550.root
+Begin processing the 300001st record. Run 1, Event 300463, LumiSection 206 on stream 0 at 07-May-2026 20:48:18.611 KST
+07-May-2026 20:48:18 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/F3B36260-2B54-DA4E-9144-1F79A5247550.root
+07-May-2026 20:48:18 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/0F69B92B-184C-5A4A-9F5B-DFA69645445E.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:48:22 KST PostProcessEvent
+Data is served from T2_US_Purdue_EOS instead of original site CERN-CMSGLOBAL-01
+%MSG
+07-May-2026 20:48:23 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/0F69B92B-184C-5A4A-9F5B-DFA69645445E.root
+07-May-2026 20:48:52 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/0F69B92B-184C-5A4A-9F5B-DFA69645445E.root
+07-May-2026 20:48:52 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/279CD9C1-24B8-B145-A8C1-1D666571C0A8.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:48:55 KST PostProcessEvent
+Data is served from T2_US_Purdue_EOS instead of original site CERN-CMSGLOBAL-01
+%MSG
+07-May-2026 20:48:56 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/279CD9C1-24B8-B145-A8C1-1D666571C0A8.root
+07-May-2026 20:49:04 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/279CD9C1-24B8-B145-A8C1-1D666571C0A8.root
+07-May-2026 20:49:04 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/90F25378-99B5-2741-9C7B-26187533B137.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:49:07 KST PostProcessEvent
+Data is served from T2_US_Purdue_EOS instead of original site CERN-CMSGLOBAL-01
+%MSG
+07-May-2026 20:49:08 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/90F25378-99B5-2741-9C7B-26187533B137.root
+07-May-2026 20:49:14 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/90F25378-99B5-2741-9C7B-26187533B137.root
+07-May-2026 20:49:14 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/87C1BD3D-8CB0-BF44-AA9D-8FEDACDAE67E.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:49:17 KST PostProcessEvent
+Data is served from T2_US_Purdue_EOS instead of original site CERN-CMSGLOBAL-01
+%MSG
+07-May-2026 20:49:18 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/87C1BD3D-8CB0-BF44-AA9D-8FEDACDAE67E.root
+%MSG-w XrdAdaptor:  (NoModuleName) 07-May-2026 20:49:26 KST pre-events
+Data is now served from T2_US_Purdue_EOS, T2_US_Vanderbilt instead of previous T2_US_Purdue_EOS
+%MSG
+07-May-2026 20:49:29 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/87C1BD3D-8CB0-BF44-AA9D-8FEDACDAE67E.root
+07-May-2026 20:49:29 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/BF098FB7-F2F5-B146-8B14-A91FC1D8E6CC.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:49:32 KST PostProcessEvent
+Data is served from T2_US_Purdue_EOS instead of original site CERN-CMSGLOBAL-01
+%MSG
+07-May-2026 20:49:33 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/BF098FB7-F2F5-B146-8B14-A91FC1D8E6CC.root
+07-May-2026 20:49:56 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/BF098FB7-F2F5-B146-8B14-A91FC1D8E6CC.root
+07-May-2026 20:49:56 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/677EBD66-C4BF-A040-A669-F03FA564DDBA.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:50:00 KST PostProcessEvent
+Data is served from T2_US_Purdue_EOS instead of original site CERN-CMSGLOBAL-01
+%MSG
+07-May-2026 20:50:01 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/677EBD66-C4BF-A040-A669-F03FA564DDBA.root
+07-May-2026 20:50:23 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/677EBD66-C4BF-A040-A669-F03FA564DDBA.root
+07-May-2026 20:50:23 KST  Initiating request to open file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/016C6DCC-ABD9-8746-8650-DE1D0F8E113A.root
+%MSG-w XrdAdaptor:  file_open 07-May-2026 20:50:26 KST PostProcessEvent
+Data is served from T2_US_Purdue_EOS instead of original site CERN-CMSGLOBAL-01
+%MSG
+07-May-2026 20:50:27 KST  Successfully opened file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/016C6DCC-ABD9-8746-8650-DE1D0F8E113A.root
+07-May-2026 20:50:44 KST  Closed file root://cms-xrd-global.cern.ch//store/mc/RunIISummer20UL17MiniAODv2/TTToHcToWAToMuMu_MHc-160_MA-40_MultiLepFilter_TuneCP5_13TeV-madgraph-pythia8/MINIAODSIM/106X_mc2017_realistic_v9-v2/2530000/016C6DCC-ABD9-8746-8650-DE1D0F8E113A.root
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		1.889e-01 +/- 4.383e-05		112667	112667	0	112667	112667	0	1.889e-01 +/- 4.383e-05		100.0 +/- 0.0	100.0 +/- 0.0
+1		1.889e-01 +/- 4.774e-05		112868	112868	0	112868	112868	0	1.889e-01 +/- 4.774e-05		100.0 +/- 0.0	100.0 +/- 0.0
+2		9.450e-02 +/- 3.333e-05		56863	56863	0	56863	56863	0	9.450e-02 +/- 3.333e-05		100.0 +/- 0.0	100.0 +/- 0.0
+3		1.889e-01 +/- 4.697e-05		112293	112293	0	112293	112293	0	1.889e-01 +/- 4.697e-05		100.0 +/- 0.0	100.0 +/- 0.0
+4		1.889e-01 +/- 4.570e-05		112744	112744	0	112744	112744	0	1.889e-01 +/- 4.570e-05		100.0 +/- 0.0	100.0 +/- 0.0
+5		9.438e-02 +/- 3.083e-05		56456	56456	0	56456	56456	0	9.438e-02 +/- 3.083e-05		100.0 +/- 0.0	100.0 +/- 0.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		9.445e-01 +/- 1.027e-04		563891	563891	0	563891	563891	0	9.445e-01 +/- 1.027e-04		100.0 +/- 0.0	100.0 +/- 0.0
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 9.445e-01 +- 1.027e-04 pb
+After matching: total cross section = 9.445e-01 +- 1.027e-04 pb
+Matching efficiency = 1.0 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (364893) / (532656) = 6.850e-01 +- 6.186e-04
+Filter efficiency (event-level)= (386293) / (563891) = 6.850e-01 +- 6.186e-04    [TO BE USED IN MCM]
+
+After filter: final cross section = 6.470e-01 +- 5.884e-04 pb
+After filter: final fraction of events with negative weights = 0.000e+00 +- 0.000e+00
+After filter: final equivalent lumi for 1M events (1/fb) = 1.546e+03 +- 2.089e+00
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      20       20
+    2 XrdAdaptor           -w (NoModuleName)                         5        5
+    3 XrdAdaptor           -w file_open                             23       23
+    4 fileAction           -s file_close                            23       23
+    5 fileAction           -s file_open                             46       46
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 XrdAdaptor           pre-events       pre-events       pre-events
+    3 XrdAdaptor           pre-events       PostProcessEvent PostProcessEvent
+    4 fileAction           PostProcessEvent PostProcessEvent PostGlobalEndRun
+    5 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                48                  48
+System                 69                  69
+
+dropped waiting message count 0
+
+================================================================================
+  SUCCESS!
+    Filter efficiency: 0.685000
+    Cross section: 0.647000 pb
+    Total files: 23
+    Total events: None
+
+================================================================================
+Results saved to: /home/choij/local/workspace/SKNanoMaker_Run2_CMSSW_10_6_28/src/Configuration/CustomNanoAOD/FilterEff/results_2017.json
+Processed 1 datasets successfully
+================================================================================
+
+================================================================================
+Result for single dataset:
+{
+  "TTToHcToWAToMuMu_MHc-160_MA-40": {
+    "filter_efficiency": 0.685,
+    "filter_efficiency_error": 0.0006186,
+    "cross_section": 0.647,
+    "cross_section_error": 0.0005884,
+    "total_files": 23,
+    "total_events": null
+  }
+}
+
+Saved to: /home/choij/local/workspace/SKNanoMaker_Run2_CMSSW_10_6_28/src/Configuration/CustomNanoAOD/FilterEff/sample_2017_TTToHcToWAToMuMu_MHc-160_MA-40.json
+================================================================================
+
+Done!

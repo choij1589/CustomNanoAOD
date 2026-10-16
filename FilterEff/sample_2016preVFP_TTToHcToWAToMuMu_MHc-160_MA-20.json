@@ -1,0 +1,10 @@
+{
+  "TTToHcToWAToMuMu_MHc-160_MA-20": {
+    "filter_efficiency": 0.6432,
+    "filter_efficiency_error": 0.0008822,
+    "cross_section": 0.4364,
+    "cross_section_error": 0.0006019,
+    "total_files": 21,
+    "total_events": null
+  }
+}
