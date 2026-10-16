@@ -35,7 +35,7 @@
     "filter_efficiency": 0.6962,
     "filter_efficiency_error": 0.0009693,
     "cross_section": 0.007149,
-    "cross_section_error": 0.000003591,
+    "cross_section_error": 3.591e-06,
     "total_files": 23,
     "total_events": null
   },
@@ -277,6 +277,14 @@
     "cross_section": 6.993e-05,
     "cross_section_error": 9.185e-08,
     "total_files": 28,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-115_MA-27": {
+    "filter_efficiency": 0.6719,
+    "filter_efficiency_error": 0.0008595,
+    "cross_section": 0.3882,
+    "cross_section_error": 0.0005001,
+    "total_files": 22,
     "total_events": null
   }
 }

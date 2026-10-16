@@ -254,5 +254,37 @@
     "cross_section_error": 3.402e-06,
     "total_files": 50,
     "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-85_MA-15": {
+    "filter_efficiency": 0.6198,
+    "filter_efficiency_error": 0.0008706,
+    "cross_section": 0.01181,
+    "cross_section_error": 1.67e-05,
+    "total_files": 34,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-100_MA-95": {
+    "filter_efficiency": 0.5652,
+    "filter_efficiency_error": 0.0004929,
+    "cross_section": 3.113e-07,
+    "cross_section_error": 2.802e-10,
+    "total_files": 27,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-160_MA-50": {
+    "filter_efficiency": 0.6947,
+    "filter_efficiency_error": 0.0008631,
+    "cross_section": 0.5905,
+    "cross_section_error": 0.000739,
+    "total_files": 19,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-115_MA-87": {
+    "filter_efficiency": 0.6837,
+    "filter_efficiency_error": 0.0009441,
+    "cross_section": 0.001034,
+    "cross_section_error": 1.439e-06,
+    "total_files": 12,
+    "total_events": null
   }
 }

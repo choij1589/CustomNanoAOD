@@ -15,14 +15,6 @@
     "total_files": 9,
     "total_events": null
   },
-  "TTToHcToWAToMuMu_MHc-70_MA-65": {
-    "filter_efficiency":
-    "filter_efficiency_error": ,
-    "cross_section": ,
-    "cross_section_error": ,
-    "total_files": 23,
-    "total_events": null
-  },
   "TTToHcToWAToMuMu_MHc-100_MA-95": {
     "filter_efficiency": 0.5646,
     "filter_efficiency_error": 0.0006524,
@@ -275,6 +267,14 @@
     "cross_section": 0.03798,
     "cross_section_error": 6.803e-05,
     "total_files": 21,
+    "total_events": null
+  },
+  "TTToHcToWAToMuMu_MHc-70_MA-65": {
+    "filter_efficiency": 0.5836,
+    "filter_efficiency_error": 0.0006628,
+    "cross_section": 3.37e-07,
+    "cross_section_error": 3.961e-10,
+    "total_files": 23,
     "total_events": null
   }
 }
